@@ -203,8 +203,8 @@ export default function MatchNarration({ match }) {
                 onClick={() => handleTypeChange('normal')}
                 disabled={loading || countdown > 0}
                 className={`px-4 py-2 text-xs font-black uppercase tracking-wider rounded-lg transition-all duration-300 ${reportType === 'normal'
-                    ? 'text-[#05070a] font-black shadow-lg'
-                    : 'text-slate-400 hover:text-slate-200'
+                  ? 'text-[#05070a] font-black shadow-lg'
+                  : 'text-slate-400 hover:text-slate-200'
                   } ${(loading || countdown > 0) ? 'opacity-40 cursor-not-allowed' : 'hover:scale-[1.02] active:scale-[0.98]'}`}
                 style={reportType === 'normal' ? {
                   backgroundColor: 'var(--accent)',
@@ -217,8 +217,8 @@ export default function MatchNarration({ match }) {
                 onClick={() => handleTypeChange('comprehensive')}
                 disabled={loading || countdown > 0}
                 className={`px-4 py-2 text-xs font-black uppercase tracking-wider rounded-lg transition-all duration-300 ${reportType === 'comprehensive'
-                    ? 'text-[#05070a] font-black shadow-lg'
-                    : 'text-slate-400 hover:text-slate-200'
+                  ? 'text-[#05070a] font-black shadow-lg'
+                  : 'text-slate-400 hover:text-slate-200'
                   } ${(loading || countdown > 0) ? 'opacity-40 cursor-not-allowed' : 'hover:scale-[1.02] active:scale-[0.98]'}`}
                 style={reportType === 'comprehensive' ? {
                   backgroundColor: 'var(--accent)',
