@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-accent-400: var(--accent);
+  --color-accent-500: var(--accent);
+  --color-accent-600: var(--accent-hover);
+  --color-emerald-400: var(--accent);
+  --color-emerald-500: var(--accent);
+  --color-emerald-600: var(--accent-hover);
+}
+
+:root {
+  --bg-deep: #030712;
+  --bg-card: rgba(15, 23, 42, 0.45);
+  --bg-card-hover: rgba(15, 23, 42, 0.65);
+  --accent: #10b981;
+  --accent-hover: #059669;
+  --accent-glow: rgba(16, 185, 129, 0.15);
+  --accent-rgb: 16, 185, 129;
+  --border-subtle: rgba(255, 255, 255, 0.04);
+  --text-muted: #9ca3af;
+  --text-primary: #ffffff;
+  --font-heading: 'Outfit', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --anim-speed: 1;
+  --sidebar-width: 240px;
+}
+
+body.theme-sapphire {
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --accent-glow: rgba(59, 130, 246, 0.15);
+  --accent-rgb: 59, 130, 246;
+}
+
+body.theme-ruby {
+  --accent: #ef4444;
+  --accent-hover: #dc2626;
+  --accent-glow: rgba(239, 68, 68, 0.15);
+  --accent-rgb: 239, 68, 68;
+}
+
+body.theme-amber {
+  --accent: #f59e0b;
+  --accent-hover: #d97706;
+  --accent-glow: rgba(245, 158, 11, 0.15);
+  --accent-rgb: 245, 158, 11;
+}
+
+body.theme-amethyst {
+  --accent: #a855f7;
+  --accent-hover: #9333ea;
+  --accent-glow: rgba(168, 85, 247, 0.15);
+  --accent-rgb: 168, 85, 247;
+}
+
+body.theme-cyan {
+  --accent: #06b6d4;
+  --accent-hover: #0891b2;
+  --accent-glow: rgba(6, 182, 212, 0.15);
+  --accent-rgb: 6, 182, 212;
+}
+
+body.theme-rose {
+  --accent: #f43f5e;
+  --accent-hover: #e11d48;
+  --accent-glow: rgba(244, 63, 94, 0.15);
+  --accent-rgb: 244, 63, 94;
+}
+
+/* Light Mode Overrides */
+body.mode-light {
+  --bg-deep: #fafbfd;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f5f7fa;
+  --border-subtle: rgba(15, 23, 42, 0.07);
+  --text-primary: #1a1f36;
+  --text-muted: #5e6687;
+  --text-secondary: #3c4257;
+  --bg-sidebar: linear-gradient(180deg, #ffffff 0%, #f7f8fc 100%);
+  --border-sidebar: rgba(15, 23, 42, 0.08);
+  --scrollbar-thumb: #d1d5e0;
+  --scrollbar-thumb-hover: #a3aab8;
+  --accent-glow: rgba(var(--accent-rgb), 0.12);
+}
+
+/* Light Mode element-level and utility overrides */
+body.mode-light {
+  color: var(--text-primary);
+  background: linear-gradient(135deg, #f8f9fd 0%, #f0f2f8 50%, #f5f6fb 100%);
+  background-attachment: fixed;
+}
+
+body.mode-light ::-webkit-scrollbar-track {
+  background: #f0f2f8;
+}
+body.mode-light ::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+body.mode-light ::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Utility overrides nested in mode-light */
+body.mode-light .bg-\[\#05070a\] {
+  background: linear-gradient(135deg, #f8f9fd 0%, #f0f2f8 50%, #f5f6fb 100%) !important;
+  background-attachment: fixed !important;
+}
+body.mode-light .bg-\[\#0a0f14\] {
+  background: linear-gradient(135deg, #f8f9fd 0%, #f0f2f8 100%) !important;
+  background-attachment: fixed !important;
+}
+body.mode-light .bg-\[\#060a10\]\/95 {
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+}
+body.mode-light .bg-\[\#0a0f14\]\/90 {
+  background: rgba(255, 255, 255, 0.88) !important;
+  backdrop-filter: blur(16px) saturate(180%) !important;
+}
+body.mode-light .bg-\[\#060a10\] {
+  background: linear-gradient(180deg, #ffffff 0%, #f7f8fc 100%) !important;
+}
+
+/* Card backgrounds – warm white with subtle accent tinting */
+body.mode-light .bg-white\/\[0\.02\] {
+  background: linear-gradient(135deg, #ffffff 0%, rgba(var(--accent-rgb), 0.02) 100%) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.02) !important;
+}
+body.mode-light .bg-white\/\[0\.025\] {
+  background: linear-gradient(135deg, #ffffff 0%, rgba(var(--accent-rgb), 0.025) 100%) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.02) !important;
+}
+body.mode-light .bg-white\/\[0\.015\] {
+  background: linear-gradient(145deg, #ffffff 0%, #f9fafb 100%) !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03) !important;
+}
+body.mode-light .bg-white\/\[0\.04\] {
+  background: linear-gradient(135deg, #f5f7fa 0%, rgba(var(--accent-rgb), 0.04) 100%) !important;
+}
+body.mode-light .bg-white\/\[0\.06\] {
+  background: rgba(var(--accent-rgb), 0.05) !important;
+}
+body.mode-light .bg-white\/5 {
+  background: linear-gradient(135deg, #f5f7fa 0%, #f0f2f8 100%) !important;
+}
+body.mode-light .bg-white\/10 {
+  background: rgba(var(--accent-rgb), 0.06) !important;
+}
+
+/* Hover states for cards */
+body.mode-light .hover\:bg-white\/\[0\.04\]:hover {
+  background: linear-gradient(135deg, #f0f2f8 0%, rgba(var(--accent-rgb), 0.06) 100%) !important;
+}
+body.mode-light .hover\:bg-white\/\[0\.05\]:hover {
+  background: linear-gradient(135deg, #eef0f6 0%, rgba(var(--accent-rgb), 0.07) 100%) !important;
+}
+body.mode-light .hover\:bg-white\/\[0\.08\]:hover {
+  background: rgba(var(--accent-rgb), 0.08) !important;
+}
+body.mode-light .hover\:bg-white\/10:hover {
+  background: rgba(var(--accent-rgb), 0.08) !important;
+}
+
+/* Borders – refined with slight accent tinting */
+body.mode-light .border-white\/\[0\.06\] {
+  border-color: rgba(var(--accent-rgb), 0.08) !important;
+}
+body.mode-light .border-white\/5 {
+  border-color: rgba(15, 23, 42, 0.06) !important;
+}
+body.mode-light .border-white\/10 {
+  border-color: rgba(15, 23, 42, 0.08) !important;
+}
+body.mode-light .border-white\/20 {
+  border-color: rgba(15, 23, 42, 0.12) !important;
+}
+body.mode-light .border-white\/\[0\.08\] {
+  border-color: rgba(var(--accent-rgb), 0.1) !important;
+}
+body.mode-light .border-white\/15 {
+  border-color: rgba(var(--accent-rgb), 0.15) !important;
+}
+
+/* Text colors */
+body.mode-light .text-white:not(.bg-theme-accent *, .rounded-full *, [style*="background"]) {
+  color: var(--text-primary) !important;
+}
+body.mode-light .text-slate-400 {
+  color: var(--text-muted) !important;
+}
+body.mode-light .text-slate-500 {
+  color: #7a82a0 !important;
+}
+body.mode-light .text-slate-600 {
+  color: var(--text-secondary) !important;
+}
+body.mode-light .text-slate-200 {
+  color: var(--text-primary) !important;
+}
+body.mode-light .text-slate-300 {
+  color: var(--text-secondary) !important;
+}
+
+/* Sidebar active state in light mode */
+body.mode-light .bg-white\/\[0\.08\] {
+  background: linear-gradient(135deg, rgba(var(--accent-rgb), 0.08) 0%, rgba(var(--accent-rgb), 0.04) 100%) !important;
+}
+
+/* Glass panel refinement for light mode */
+body.mode-light .glass-panel {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border-color: rgba(var(--accent-rgb), 0.08) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(var(--accent-rgb), 0.04) !important;
+}
+body.mode-light .glass-panel:hover {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-color: rgba(var(--accent-rgb), 0.12) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(var(--accent-rgb), 0.06) !important;
+}
+
+/* Footer border */
+body.mode-light .border-t.border-white\/10 {
+  border-color: rgba(15, 23, 42, 0.06) !important;
+}
+
+/* Loading state */
+body.mode-light .rounded-xl.border.border-white\/10.bg-white\/5 {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%) !important;
+  border-color: rgba(var(--accent-rgb), 0.08) !important;
+}
+
+/* Shadow elevation for cards in light mode */
+body.mode-light .shadow-2xl {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(var(--accent-rgb), 0.04) !important;
+}
+body.mode-light .shadow-lg {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(var(--accent-rgb), 0.03) !important;
+}
+
+/* ── Dropdown / Select elements ── */
+body.mode-light select,
+body.mode-light select.text-white,
+body.mode-light select.bg-white\/5,
+body.mode-light select.bg-slate-950\/40 {
+  background-color: #ffffff !important;
+  color: var(--text-primary) !important;
+  border-color: rgba(var(--accent-rgb), 0.12) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 0 1px rgba(var(--accent-rgb), 0.06) !important;
+}
+body.mode-light select:hover {
+  background-color: #f8f9fd !important;
+  border-color: rgba(var(--accent-rgb), 0.2) !important;
+}
+body.mode-light select:focus {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.12), 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+}
+body.mode-light select option,
+body.mode-light option.bg-\[\#0d121a\],
+body.mode-light option[style] {
+  background-color: #ffffff !important;
+  color: var(--text-primary) !important;
+}
+body.mode-light option:checked {
+  background: rgba(var(--accent-rgb), 0.1) !important;
+  color: var(--text-primary) !important;
+}
+
+/* ── Search input ── */
+body.mode-light input[type="text"],
+body.mode-light input.text-white {
+  background-color: #ffffff !important;
+  color: var(--text-primary) !important;
+  border-color: rgba(var(--accent-rgb), 0.1) !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+}
+body.mode-light input[type="text"]:hover {
+  background-color: #f8f9fd !important;
+  border-color: rgba(var(--accent-rgb), 0.18) !important;
+}
+body.mode-light input[type="text"]:focus {
+  background-color: #ffffff !important;
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.1), 0 1px 3px rgba(0, 0, 0, 0.04) !important;
+}
+body.mode-light input::placeholder {
+  color: #9ca3af !important;
+}
+
+/* ── Dark gradient backgrounds (Scorecard, H2H, Glossary, Overview, etc.) ── */
+body.mode-light .bg-gradient-to-b.from-slate-900\/60.to-slate-950\/80,
+body.mode-light .from-slate-900\/60 {
+  background: linear-gradient(to bottom, #ffffff, rgba(var(--accent-rgb), 0.02)) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(var(--accent-rgb), 0.06) !important;
+}
+
+/* Dark solid backgrounds used in match cards */
+body.mode-light .bg-black\/20 {
+  background: linear-gradient(135deg, #ffffff 0%, rgba(var(--accent-rgb), 0.02) 100%) !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04) !important;
+}
+body.mode-light .bg-black\/30,
+body.mode-light .hover\:bg-black\/30:hover {
+  background: linear-gradient(135deg, #f8f9fd 0%, rgba(var(--accent-rgb), 0.04) 100%) !important;
+}
+
+/* Slate backgrounds */
+body.mode-light .bg-slate-900\/20 {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%) !important;
+}
+body.mode-light .bg-slate-900\/50,
+body.mode-light .focus\:bg-slate-900\/50:focus {
+  background: #ffffff !important;
+}
+body.mode-light .bg-slate-950\/40 {
+  background: #ffffff !important;
+}
+body.mode-light .bg-slate-800\/10 {
+  background: rgba(var(--accent-rgb), 0.04) !important;
+}
+
+/* Score sub-cards in match cards */
+body.mode-light .bg-white\/\[0\.03\] {
+  background: linear-gradient(135deg, #f8f9fd 0%, rgba(var(--accent-rgb), 0.03) 100%) !important;
+}
+body.mode-light .border-white\/\[0\.04\] {
+  border-color: rgba(var(--accent-rgb), 0.08) !important;
+}
+
+/* Hover states for match cards */
+body.mode-light .hover\:bg-white\/5:hover {
+  background: linear-gradient(135deg, #f5f7fa 0%, #f0f2f8 100%) !important;
+}
+body.mode-light .hover\:bg-white\/10:hover {
+  background: rgba(var(--accent-rgb), 0.08) !important;
+}
+body.mode-light .hover\:bg-white\/20:hover {
+  background: rgba(var(--accent-rgb), 0.1) !important;
+}
+body.mode-light .hover\:border-white\/20:hover {
+  border-color: rgba(var(--accent-rgb), 0.15) !important;
+}
+
+/* Hover on sidebar/nav */
+body.mode-light .hover\:bg-white\/\[0\.04\]:hover {
+  background: linear-gradient(135deg, #f0f2f8 0%, rgba(var(--accent-rgb), 0.06) 100%) !important;
+}
+
+/* Stat chips and small badges */
+body.mode-light .bg-white\/\[0\.03\] {
+  background: rgba(var(--accent-rgb), 0.04) !important;
+}
+
+/* Win ratio bar background */
+body.mode-light .bg-white\/\[0\.04\] {
+  background: rgba(var(--accent-rgb), 0.06) !important;
+}
+
+/* Backdrop-blur panels in light mode */
+body.mode-light .backdrop-blur-xl,
+body.mode-light .backdrop-blur-2xl,
+body.mode-light .backdrop-blur-sm {
+  backdrop-filter: blur(16px) saturate(120%) !important;
+}
+
+/* ── Slug/tag badges (bg-white/5 small elements) ── */
+body.mode-light .rounded.bg-white\/5,
+body.mode-light .rounded-md.bg-white\/10 {
+  background: rgba(var(--accent-rgb), 0.06) !important;
+  color: var(--text-muted) !important;
+}
+
+/* ── Hamburger / mobile nav button ── */
+body.mode-light .bg-\[\#0a0f14\]\/90 {
+  background: rgba(255, 255, 255, 0.92) !important;
+}
+body.mode-light .bg-black\/60 {
+  background: rgba(15, 23, 42, 0.25) !important;
+}
+
+/* Hover on scorecard stat cards */
+body.mode-light .hover\:bg-white\/\[0\\.05\]:hover {
+  background: linear-gradient(135deg, #eef0f6 0%, rgba(var(--accent-rgb), 0.07) 100%) !important;
+}
+
+/* Timeline winner dot border fix */
+body.mode-light .border-2.border-slate-900 {
+  border-color: #ffffff !important;
+}
+
+/* Settings/Tournament view shadows */
+body.mode-light .shadow-\[0_24px_80px_rgba\(0\,0\,0\,0\.28\)\] {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* ── Dropdown option styling ── */
+.bts-option {
+  background-color: var(--bg-deep);
+  color: var(--text-primary);
+}
+body.mode-light .bts-option {
+  background-color: #ffffff !important;
+  color: var(--text-primary) !important;
+}
+
+/* ── Additional dark background overrides ── */
+body.mode-light .bg-slate-900\/40,
+body.mode-light .hover\:bg-slate-900\/40:hover {
+  background: linear-gradient(135deg, #f0f2f8 0%, rgba(var(--accent-rgb), 0.05) 100%) !important;
+}
+body.mode-light .hover\:bg-slate-900:hover {
+  background-color: #f8f9fd !important;
+}
+body.mode-light .bg-slate-900 {
+  background-color: #ffffff !important;
+}
+/* KeyMoments timeline dot */
+body.mode-light .bg-slate-900.border-2.border-slate-700 {
+  background-color: #e8eaf0 !important;
+  border-color: rgba(var(--accent-rgb), 0.15) !important;
+}
+body.mode-light .border-slate-700 {
+  border-color: rgba(15, 23, 42, 0.1) !important;
+}
+/* Gradient line decorators in light mode */
+body.mode-light .from-slate-900\/60.to-slate-950\/80 {
+  --tw-gradient-from: rgba(255, 255, 255, 0.9) !important;
+  --tw-gradient-to: rgba(var(--accent-rgb), 0.02) !important;
+}
+
+/* Animation speed modifiers */
+body.anim-fast { --anim-speed: 0.5; }
+body.anim-normal { --anim-speed: 1; }
+body.anim-slow { --anim-speed: 1.8; }
+body.anim-none { --anim-speed: 0; }
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  background-color: var(--bg-deep);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Selection */
+::selection {
+  background: var(--accent);
+  color: #000;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom Glass Panel Styles */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid var(--border-subtle);
+  border-radius: 1.5rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel:hover {
+  background: var(--bg-card-hover);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Theme-aware accent utilities */
+.text-theme-accent { color: var(--accent) !important; }
+.bg-theme-accent { background-color: var(--accent) !important; }
+.border-theme-accent { border-color: var(--accent) !important; }
+.bg-theme-accent-10 { background-color: rgba(var(--accent-rgb), 0.1) !important; }
+.bg-theme-accent-5 { background-color: rgba(var(--accent-rgb), 0.05) !important; }
+.border-theme-accent-20 { border-color: rgba(var(--accent-rgb), 0.2) !important; }
+.shadow-theme-glow { box-shadow: 0 0 12px var(--accent-glow) !important; }
+
+/* Group hover utilities */
+.group:hover .group-hover-text-theme-accent { color: var(--accent) !important; }
+.group:hover .group-hover-border-theme-accent { border-color: var(--accent) !important; }
+
+/* Theme-aware accent utilities */
+.text-theme-accent { color: var(--accent) !important; }
+.bg-theme-accent { background-color: var(--accent) !important; }
+.border-theme-accent { border-color: var(--accent) !important; }
+.bg-theme-accent-10 { background-color: rgba(var(--accent-rgb), 0.1) !important; }
+.bg-theme-accent-5 { background-color: rgba(var(--accent-rgb), 0.05) !important; }
+.border-theme-accent-20 { border-color: rgba(var(--accent-rgb), 0.2) !important; }
+.shadow-theme-glow { box-shadow: 0 0 12px var(--accent-glow) !important; }
+
+/* ── Sidebar Layout ── */
+@media (min-width: 1024px) {
+  .bts-main-content {
+    margin-left: var(--sidebar-width, 240px);
+    transition: margin-left 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+}
+
+.bts-sidebar {
+  transition: width 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ── Animations ── */
+@keyframes bts-fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bts-fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

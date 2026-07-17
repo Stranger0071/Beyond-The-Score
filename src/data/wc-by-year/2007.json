@@ -1,0 +1,5459 @@
+[
+  {
+    "id": "3124",
+    "year": 2007,
+    "venue": "Sabina Park, Kingston",
+    "winner": "Unknown",
+    "margin": "West Indies won by 54 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Pakistan",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 241,
+      "wickets": 9,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 187,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 241,
+        "wickets": 9,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.82,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 187,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.95,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 1",
+        "stat": "West Indies won by 54 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3125",
+    "year": 2007,
+    "venue": "Warner Park, Basseterre",
+    "winner": "Unknown",
+    "margin": "Australia won by 203 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Scotland",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 334,
+      "wickets": 6,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 131,
+      "wickets": 9,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 334,
+        "wickets": 6,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.68,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 131,
+        "wickets": 9,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.26,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 2",
+        "stat": "Australia won by 203 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3126",
+    "year": 2007,
+    "venue": "Daren Sammy National Cricket Stadium, Gros Islet",
+    "winner": "Unknown",
+    "margin": "Kenya won by 7 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "Kenya",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 199,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 203,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 199,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.98,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 203,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.68,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 3",
+        "stat": "Kenya won by 7 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3127",
+    "year": 2007,
+    "venue": "Queen's Park Oval, Port of Spain",
+    "winner": "Unknown",
+    "margin": "Sri Lanka won by 243 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Sri Lanka",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 321,
+      "wickets": 6,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 78,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 321,
+        "wickets": 6,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.42,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 78,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.16,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Sri Lanka won by 243 runs",
+        "stat": "Sri Lanka won by 243 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3128",
+    "year": 2007,
+    "venue": "Sabina Park, Kingston",
+    "winner": "Zimbabwe",
+    "margin": "Match tied",
+    "winOutcome": "runs",
+    "tossWinner": "Zimbabwe",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 221,
+      "wickets": 9,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 221,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 221,
+        "wickets": 9,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.42,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 221,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.42,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match tied",
+        "stat": "Match tied",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3129",
+    "year": 2007,
+    "venue": "Daren Sammy National Cricket Stadium, Gros Islet",
+    "winner": "Unknown",
+    "margin": "New Zealand won by 6 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "New Zealand",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 209,
+      "wickets": 7,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 210,
+      "wickets": 4,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 209,
+        "wickets": 7,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.18,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 210,
+        "wickets": 4,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.12,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 6",
+        "stat": "New Zealand won by 6 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3130",
+    "year": 2007,
+    "venue": "Warner Park, Basseterre",
+    "winner": "Unknown",
+    "margin": "South Africa won by 221 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Netherlands",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 353,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 132,
+      "wickets": 9,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 353,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 8.82,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 132,
+        "wickets": 9,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.3,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "South Africa won by 221 runs",
+        "stat": "South Africa won by 221 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3131",
+    "year": 2007,
+    "venue": "Queen's Park Oval, Port of Spain",
+    "winner": "Unknown",
+    "margin": "Bangladesh won by 5 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "India",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 191,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 192,
+      "wickets": 5,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 191,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.85,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 192,
+        "wickets": 5,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.95,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 8",
+        "stat": "Bangladesh won by 5 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3132",
+    "year": 2007,
+    "venue": "Sabina Park, Kingston",
+    "winner": "Unknown",
+    "margin": "Ireland won by 3 wickets (D/L method)",
+    "winOutcome": "runs",
+    "tossWinner": "Ireland",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 132,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 133,
+      "wickets": 7,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 132,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 2.89,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 133,
+        "wickets": 7,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.19,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Ireland won by 3 wickets (D/L method)",
+        "stat": "Ireland won by 3 wickets (D/L method)",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3133",
+    "year": 2007,
+    "venue": "Warner Park, Basseterre",
+    "winner": "Unknown",
+    "margin": "Australia won by 229 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Australia",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 358,
+      "wickets": 5,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 129,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 358,
+        "wickets": 5,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 7.16,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 129,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.8,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 10",
+        "stat": "Australia won by 229 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3134",
+    "year": 2007,
+    "venue": "Daren Sammy National Cricket Stadium, Gros Islet",
+    "winner": "Unknown",
+    "margin": "England won by 51 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Canada",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 279,
+      "wickets": 6,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 228,
+      "wickets": 7,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 279,
+        "wickets": 6,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.58,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 228,
+        "wickets": 7,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.56,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 11",
+        "stat": "England won by 51 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3135",
+    "year": 2007,
+    "venue": "Queen's Park Oval, Port of Spain",
+    "winner": "Unknown",
+    "margin": "India won by 257 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Bermuda",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 413,
+      "wickets": 5,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 156,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 413,
+        "wickets": 5,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 8.26,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 156,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.61,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 12",
+        "stat": "India won by 257 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3136",
+    "year": 2007,
+    "venue": "Sabina Park, Kingston",
+    "winner": "Unknown",
+    "margin": "West Indies won by 6 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "West Indies",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 202,
+      "wickets": 5,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 204,
+      "wickets": 4,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 202,
+        "wickets": 5,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.04,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 204,
+        "wickets": 4,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.26,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 13",
+        "stat": "West Indies won by 6 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3137",
+    "year": 2007,
+    "venue": "Daren Sammy National Cricket Stadium, Gros Islet",
+    "winner": "Unknown",
+    "margin": "New Zealand won by 148 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Kenya",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 331,
+      "wickets": 7,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 183,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 331,
+        "wickets": 7,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.62,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 183,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.7,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 14",
+        "stat": "New Zealand won by 148 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3138",
+    "year": 2007,
+    "venue": "Warner Park, Basseterre",
+    "winner": "Unknown",
+    "margin": "South Africa won by 7 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "South Africa",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 186,
+      "wickets": 8,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 188,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 186,
+        "wickets": 8,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.72,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 188,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 8.05,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 15",
+        "stat": "South Africa won by 7 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3139",
+    "year": 2007,
+    "venue": "Queen's Park Oval, Port of Spain",
+    "winner": "Unknown",
+    "margin": "Sri Lanka won by 198 runs (D/L method)",
+    "winOutcome": "runs",
+    "tossWinner": "Bangladesh",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 318,
+      "wickets": 4,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 112,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 318,
+        "wickets": 4,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.36,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 112,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.02,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Sri Lanka won by 198 runs (D/L method)",
+        "stat": "Sri Lanka won by 198 runs (D/L method)",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3140",
+    "year": 2007,
+    "venue": "Sabina Park, Kingston",
+    "winner": "Unknown",
+    "margin": "Pakistan won by 93 runs (D/L method)",
+    "winOutcome": "runs",
+    "tossWinner": "Zimbabwe",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 349,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 99,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 349,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 7,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 99,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.16,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Pakistan won by 93 runs (D/L method)",
+        "stat": "Pakistan won by 93 runs (D/L method)",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3141",
+    "year": 2007,
+    "venue": "Daren Sammy National Cricket Stadium, Gros Islet",
+    "winner": "Unknown",
+    "margin": "New Zealand won by 114 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Canada",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 363,
+      "wickets": 5,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 249,
+      "wickets": 9,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 363,
+        "wickets": 5,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 7.26,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 249,
+        "wickets": 9,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.04,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 18",
+        "stat": "New Zealand won by 114 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3142",
+    "year": 2007,
+    "venue": "Warner Park, Basseterre",
+    "winner": "Unknown",
+    "margin": "Netherlands won by 8 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "Netherlands",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 136,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 140,
+      "wickets": 2,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 136,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.98,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 140,
+        "wickets": 2,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.87,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 19",
+        "stat": "Netherlands won by 8 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3143",
+    "year": 2007,
+    "venue": "Queen's Park Oval, Port of Spain",
+    "winner": "Unknown",
+    "margin": "Sri Lanka won by 69 runs",
+    "winOutcome": "runs",
+    "tossWinner": "India",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 254,
+      "wickets": 6,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 185,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 254,
+        "wickets": 6,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.08,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 185,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.25,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 20",
+        "stat": "Sri Lanka won by 69 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3144",
+    "year": 2007,
+    "venue": "Sabina Park, Kingston",
+    "winner": "Unknown",
+    "margin": "West Indies won by 8 wickets (D/L method)",
+    "winOutcome": "runs",
+    "tossWinner": "Ireland",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 183,
+      "wickets": 8,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 190,
+      "wickets": 2,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 183,
+        "wickets": 8,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.81,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 190,
+        "wickets": 2,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.97,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "West Indies won by 8 wickets (D/L method)",
+        "stat": "West Indies won by 8 wickets (D/L method)",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3145",
+    "year": 2007,
+    "venue": "Warner Park, Basseterre",
+    "winner": "Unknown",
+    "margin": "Australia won by 83 runs",
+    "winOutcome": "runs",
+    "tossWinner": "South Africa",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 377,
+      "wickets": 6,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 294,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 377,
+        "wickets": 6,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 7.54,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 294,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.12,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Australia won by 83 runs",
+        "stat": "Australia won by 83 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3146",
+    "year": 2007,
+    "venue": "Daren Sammy National Cricket Stadium, Gros Islet",
+    "winner": "Unknown",
+    "margin": "England won by 7 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "Kenya",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 177,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 178,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 177,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.11,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 178,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.39,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 23",
+        "stat": "England won by 7 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3147",
+    "year": 2007,
+    "venue": "Queen's Park Oval, Port of Spain",
+    "winner": "Unknown",
+    "margin": "Bangladesh won by 7 wickets (D/L method)",
+    "winOutcome": "runs",
+    "tossWinner": "Bangladesh",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 94,
+      "wickets": 9,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 96,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 94,
+        "wickets": 9,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.47,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 96,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.48,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Bangladesh won by 7 wickets (D/L method)",
+        "stat": "Bangladesh won by 7 wickets (D/L method)",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3148",
+    "year": 2007,
+    "venue": "Sir Vivian Richards Stadium, North Sound",
+    "winner": "Unknown",
+    "margin": "Australia won by 103 runs",
+    "winOutcome": "runs",
+    "tossWinner": "West Indies",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 322,
+      "wickets": 6,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 219,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 322,
+        "wickets": 6,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.44,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 219,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.81,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 25",
+        "stat": "Australia won by 103 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3149",
+    "year": 2007,
+    "venue": "Providence Stadium, Providence",
+    "winner": "Unknown",
+    "margin": "South Africa won by 1 wicket",
+    "winOutcome": "runs",
+    "tossWinner": "Sri Lanka",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 209,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 212,
+      "wickets": 9,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 209,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.22,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 212,
+        "wickets": 9,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.38,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 26",
+        "stat": "South Africa won by 1 wicket",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3150",
+    "year": 2007,
+    "venue": "Sir Vivian Richards Stadium, North Sound",
+    "winner": "Unknown",
+    "margin": "New Zealand won by 7 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "New Zealand",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 177,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 179,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 177,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.96,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 179,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.55,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 27",
+        "stat": "New Zealand won by 7 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3151",
+    "year": 2007,
+    "venue": "Providence Stadium, Providence",
+    "winner": "Unknown",
+    "margin": "England won by 48 runs",
+    "winOutcome": "runs",
+    "tossWinner": "England",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 266,
+      "wickets": 7,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 218,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 266,
+        "wickets": 7,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.32,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 218,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.52,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 28",
+        "stat": "England won by 48 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3152",
+    "year": 2007,
+    "venue": "Sir Vivian Richards Stadium, North Sound",
+    "winner": "Unknown",
+    "margin": "Australia won by 10 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "Australia",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 104,
+      "wickets": 6,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 106,
+      "wickets": 0,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 104,
+        "wickets": 6,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.72,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 106,
+        "wickets": 0,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 7.66,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 29",
+        "stat": "Australia won by 10 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3153",
+    "year": 2007,
+    "venue": "Providence Stadium, Providence",
+    "winner": "Unknown",
+    "margin": "Sri Lanka won by 113 runs",
+    "winOutcome": "runs",
+    "tossWinner": "West Indies",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 303,
+      "wickets": 5,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 190,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 303,
+        "wickets": 5,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.06,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 190,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.26,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 30",
+        "stat": "Sri Lanka won by 113 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3154",
+    "year": 2007,
+    "venue": "Sir Vivian Richards Stadium, North Sound",
+    "winner": "Unknown",
+    "margin": "New Zealand won by 9 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "New Zealand",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 174,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 178,
+      "wickets": 1,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 174,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.58,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 178,
+        "wickets": 1,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.06,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 31",
+        "stat": "New Zealand won by 9 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3155",
+    "year": 2007,
+    "venue": "Providence Stadium, Providence",
+    "winner": "Unknown",
+    "margin": "South Africa won by 7 wickets (D/L method)",
+    "winOutcome": "runs",
+    "tossWinner": "South Africa",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 152,
+      "wickets": 8,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 165,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 152,
+        "wickets": 8,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.34,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 165,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.23,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "South Africa won by 7 wickets (D/L method)",
+        "stat": "South Africa won by 7 wickets (D/L method)",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3156",
+    "year": 2007,
+    "venue": "Sir Vivian Richards Stadium, North Sound",
+    "winner": "Unknown",
+    "margin": "Sri Lanka won by 2 runs",
+    "winOutcome": "runs",
+    "tossWinner": "England",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 235,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 233,
+      "wickets": 8,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 235,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.7,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 233,
+        "wickets": 8,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.66,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 33",
+        "stat": "Sri Lanka won by 2 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3157",
+    "year": 2007,
+    "venue": "Providence Stadium, Providence",
+    "winner": "Unknown",
+    "margin": "Bangladesh won by 67 runs",
+    "winOutcome": "runs",
+    "tossWinner": "South Africa",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 251,
+      "wickets": 8,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 184,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 251,
+        "wickets": 8,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.02,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 184,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.78,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 34",
+        "stat": "Bangladesh won by 67 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3158",
+    "year": 2007,
+    "venue": "Sir Vivian Richards Stadium, North Sound",
+    "winner": "Unknown",
+    "margin": "Australia won by 7 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "England",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 247,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 248,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 247,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.95,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 248,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.23,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 35",
+        "stat": "Australia won by 7 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3159",
+    "year": 2007,
+    "venue": "Providence Stadium, Providence",
+    "winner": "Unknown",
+    "margin": "New Zealand won by 129 runs",
+    "winOutcome": "runs",
+    "tossWinner": "New Zealand",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 263,
+      "wickets": 8,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 134,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 263,
+        "wickets": 8,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.26,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 134,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.55,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 36",
+        "stat": "New Zealand won by 129 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3160",
+    "year": 2007,
+    "venue": "National Cricket Stadium, St George's",
+    "winner": "Unknown",
+    "margin": "South Africa won by 67 runs",
+    "winOutcome": "runs",
+    "tossWinner": "West Indies",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 356,
+      "wickets": 4,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 289,
+      "wickets": 9,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 356,
+        "wickets": 4,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 7.12,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 289,
+        "wickets": 9,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.78,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "South Africa won by 67 runs",
+        "stat": "South Africa won by 67 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3161",
+    "year": 2007,
+    "venue": "Kensington Oval, Bridgetown",
+    "winner": "Unknown",
+    "margin": "England won by 4 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "England",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 143,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 147,
+      "wickets": 6,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 143,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.83,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 147,
+        "wickets": 6,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.27,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 38",
+        "stat": "England won by 4 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3162",
+    "year": 2007,
+    "venue": "National Cricket Stadium, St George's",
+    "winner": "Unknown",
+    "margin": "Sri Lanka won by 6 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "New Zealand",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 219,
+      "wickets": 7,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 222,
+      "wickets": 4,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 219,
+        "wickets": 7,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.38,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 222,
+        "wickets": 4,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.91,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 39",
+        "stat": "Sri Lanka won by 6 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3163",
+    "year": 2007,
+    "venue": "Kensington Oval, Bridgetown",
+    "winner": "Unknown",
+    "margin": "Australia won by 9 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "Australia",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 91,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 92,
+      "wickets": 1,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 91,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.03,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 92,
+        "wickets": 1,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 7.45,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 40",
+        "stat": "Australia won by 9 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3164",
+    "year": 2007,
+    "venue": "National Cricket Stadium, St George's",
+    "winner": "Unknown",
+    "margin": "New Zealand won by 5 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "New Zealand",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 193,
+      "wickets": 7,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 196,
+      "wickets": 5,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 193,
+        "wickets": 7,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.86,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 196,
+        "wickets": 5,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.05,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 41",
+        "stat": "New Zealand won by 5 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3165",
+    "year": 2007,
+    "venue": "Kensington Oval, Bridgetown",
+    "winner": "Unknown",
+    "margin": "Ireland won by 74 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Ireland",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 243,
+      "wickets": 7,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 169,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 243,
+        "wickets": 7,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.86,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 169,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.08,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 42",
+        "stat": "Ireland won by 74 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3166",
+    "year": 2007,
+    "venue": "National Cricket Stadium, St George's",
+    "winner": "Unknown",
+    "margin": "Australia won by 7 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "Sri Lanka",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 226,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 232,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 226,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.55,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 232,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.43,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 43",
+        "stat": "Australia won by 7 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3167",
+    "year": 2007,
+    "venue": "Kensington Oval, Bridgetown",
+    "winner": "Unknown",
+    "margin": "South Africa won by 9 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "England",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 154,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 157,
+      "wickets": 1,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 154,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.2,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 157,
+        "wickets": 1,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 8.12,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 44",
+        "stat": "South Africa won by 9 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3168",
+    "year": 2007,
+    "venue": "National Cricket Stadium, St George's",
+    "winner": "Unknown",
+    "margin": "Sri Lanka won by 8 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "Sri Lanka",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 77,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 81,
+      "wickets": 2,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 77,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 2.78,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 81,
+        "wickets": 2,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 8.1,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 45",
+        "stat": "Sri Lanka won by 8 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3169",
+    "year": 2007,
+    "venue": "Kensington Oval, Bridgetown",
+    "winner": "Unknown",
+    "margin": "West Indies won by 99 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Bangladesh",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 230,
+      "wickets": 5,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 131,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 230,
+        "wickets": 5,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.6,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 131,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 2.98,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 46",
+        "stat": "West Indies won by 99 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3170",
+    "year": 2007,
+    "venue": "National Cricket Stadium, St George's",
+    "winner": "Unknown",
+    "margin": "Australia won by 215 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Australia",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 348,
+      "wickets": 6,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 133,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 348,
+        "wickets": 6,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.96,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 133,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.14,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 47",
+        "stat": "Australia won by 215 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3171",
+    "year": 2007,
+    "venue": "Kensington Oval, Bridgetown",
+    "winner": "Unknown",
+    "margin": "England won by 1 wicket",
+    "winOutcome": "runs",
+    "tossWinner": "England",
+    "tossDecision": "field",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 300,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 301,
+      "wickets": 9,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 300,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.02,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 301,
+        "wickets": 9,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 6.04,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Match 48",
+        "stat": "England won by 1 wicket",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3172",
+    "year": 2007,
+    "venue": "Sabina Park, Kingston",
+    "winner": "Unknown",
+    "margin": "Sri Lanka won by 81 runs",
+    "winOutcome": "runs",
+    "tossWinner": "Sri Lanka",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 289,
+      "wickets": 5,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 208,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 289,
+        "wickets": 5,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.78,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 208,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.99,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Semi-Final",
+        "stat": "Sri Lanka won by 81 runs",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3173",
+    "year": 2007,
+    "venue": "Daren Sammy National Cricket Stadium, Gros Islet",
+    "winner": "Unknown",
+    "margin": "Australia won by 7 wickets",
+    "winOutcome": "runs",
+    "tossWinner": "South Africa",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 149,
+      "wickets": 10,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 153,
+      "wickets": 3,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 149,
+        "wickets": 10,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 3.39,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 153,
+        "wickets": 3,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 4.85,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Semi-Final",
+        "stat": "Australia won by 7 wickets",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  },
+  {
+    "id": "3174",
+    "year": 2007,
+    "venue": "Kensington Oval, Bridgetown",
+    "winner": "Unknown",
+    "margin": "Australia won by 53 runs (D/L method)",
+    "winOutcome": "runs",
+    "tossWinner": "Australia",
+    "tossDecision": "bat",
+    "team1": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 281,
+      "wickets": 4,
+      "overs": "0.0"
+    },
+    "team2": {
+      "name": "Unknown",
+      "short": "UNK",
+      "color": "#475569",
+      "runs": 215,
+      "wickets": 8,
+      "overs": "0.0"
+    },
+    "playerOfMatch": "TBD",
+    "innings": [
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 281,
+        "wickets": 4,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 7.39,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      },
+      {
+        "battingTeam": "Unknown",
+        "bowlingTeam": "Unknown",
+        "runs": 215,
+        "wickets": 8,
+        "balls": 0,
+        "overs": "0.0",
+        "runRate": 5.97,
+        "topBatters": [],
+        "topBowlers": [],
+        "fours": 0,
+        "sixes": 0,
+        "dotBalls": 0,
+        "dotBallPct": 0,
+        "boundaryPct": 0,
+        "powerplay": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "middle": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        },
+        "death": {
+          "runs": 0,
+          "balls": 0,
+          "runRate": 0,
+          "dotPct": 0
+        }
+      }
+    ],
+    "insights": [
+      {
+        "type": "highlight",
+        "title": "WC Match",
+        "body": "Australia won by 53 runs (D/L method)",
+        "stat": "Australia won by 53 runs (D/L method)",
+        "sentiment": "positive"
+      }
+    ],
+    "keyMoments": []
+  }
+]

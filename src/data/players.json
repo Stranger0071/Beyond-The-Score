@@ -1,0 +1,3964 @@
+[
+  {
+    "name": "A Ashish Reddy",
+    "dobSerial": 33293,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "A Chandila",
+    "dobSerial": 30655,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "A Chopra",
+    "dobSerial": 28387,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "A Choudhary",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "A Dananjaya",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": ""
+  },
+  {
+    "name": "A Flintoff",
+    "dobSerial": 28465,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "England"
+  },
+  {
+    "name": "A Hales",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "A Joseph",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "A Kumble",
+    "dobSerial": 25858,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "A Mishra",
+    "dobSerial": 30279,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "A Mithun",
+    "dobSerial": 32806,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "A Mukund",
+    "dobSerial": 32879,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "A Nehra",
+    "dobSerial": 28974,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "A Nel",
+    "dobSerial": 28321,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "A Roy",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": ""
+  },
+  {
+    "name": "A Singh",
+    "dobSerial": 29758,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "A Symonds",
+    "dobSerial": 27554,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Australia"
+  },
+  {
+    "name": "A Turner",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "A Uniyal",
+    "dobSerial": 29911,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "A Zampa",
+    "dobSerial": 33694,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "Australia"
+  },
+  {
+    "name": "AA Bilakhia",
+    "dobSerial": 31563,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "AA Chavan",
+    "dobSerial": 31348,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "AA Jhunjhunwala",
+    "dobSerial": 30286,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "AA Kazi",
+    "dobSerial": 32780,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "AA Noffke",
+    "dobSerial": 28245,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "AB Agarkar",
+    "dobSerial": 28463,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "India"
+  },
+  {
+    "name": "AB Barath",
+    "dobSerial": 32977,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "AB de Villiers",
+    "dobSerial": 30729,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "AB Dinda",
+    "dobSerial": 30766,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "AB McDonald",
+    "dobSerial": 29742,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "Abdur Razzak",
+    "dobSerial": 30117,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Bangladesh"
+  },
+  {
+    "name": "AC Blizzard",
+    "dobSerial": 30860,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "AC Gilchrist",
+    "dobSerial": 26251,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Australia"
+  },
+  {
+    "name": "AC Thomas",
+    "dobSerial": 28165,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "England"
+  },
+  {
+    "name": "AC Voges",
+    "dobSerial": 29132,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Australia"
+  },
+  {
+    "name": "AD Mascarenhas",
+    "dobSerial": 28428,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "England"
+  },
+  {
+    "name": "AD Mathews",
+    "dobSerial": 31930,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "AD Nath",
+    "dobSerial": 34099,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "AD Russell",
+    "dobSerial": 32262,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "West Indies"
+  },
+  {
+    "name": "AF Milne",
+    "dobSerial": 33707,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "New Zealand"
+  },
+  {
+    "name": "AG Murtaza",
+    "dobSerial": 32874,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "AG Paunikar",
+    "dobSerial": 32251,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "AJ Finch",
+    "dobSerial": 31733,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Australia"
+  },
+  {
+    "name": "AJ Tye",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "AL Menaria",
+    "dobSerial": 33175,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "AM Nayar",
+    "dobSerial": 30597,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "AM Rahane",
+    "dobSerial": 32300,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "AM Salvi",
+    "dobSerial": 29879,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "AN Ahmed",
+    "dobSerial": 32452,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "AN Ghosh",
+    "dobSerial": 31704,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "Anand Rajan",
+    "dobSerial": 31884,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "Anirudh Singh",
+    "dobSerial": 29435,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "Ankit Sharma",
+    "dobSerial": 33348,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "Ankit Soni",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Legbreak",
+    "country": ""
+  },
+  {
+    "name": "Anureet Singh",
+    "dobSerial": 32204,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "AP Dole",
+    "dobSerial": 32059,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "AP Majumdar",
+    "dobSerial": 30802,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "AP Tare",
+    "dobSerial": 32088,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "AR Bawne",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "AR Patel",
+    "dobSerial": 34354,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "AS Rajpoot",
+    "dobSerial": 34307,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "AS Raut",
+    "dobSerial": 31839,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "AS Yadav",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "AT Rayudu",
+    "dobSerial": 31313,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "AUK Pathan",
+    "dobSerial": 30850,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "AV Wankhade",
+    "dobSerial": 33677,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "Avesh Khan",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "Azhar Mahmood",
+    "dobSerial": 27453,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Pakistan"
+  },
+  {
+    "name": "B Akhil",
+    "dobSerial": 28405,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "B Aparajith",
+    "dobSerial": 34523,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "B Chipli",
+    "dobSerial": 30343,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "B Geeves",
+    "dobSerial": 30115,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "B Kumar",
+    "dobSerial": 32909,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "B Laughlin",
+    "dobSerial": 30227,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "B Lee",
+    "dobSerial": 28072,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "B Stanlake",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "B Sumanth",
+    "dobSerial": 32273,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "BA Bhatt",
+    "dobSerial": 33006,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "BA Stokes",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "Basil Thampi",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "BAW Mendis",
+    "dobSerial": 31117,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "BB McCullum",
+    "dobSerial": 29856,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "BB Samantray",
+    "dobSerial": 32491,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "BB Sran",
+    "dobSerial": 33948,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "BCJ Cutting",
+    "dobSerial": 31807,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "BE Hendricks",
+    "dobSerial": 33032,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "Bipul Sharma",
+    "dobSerial": 30587,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "BJ Haddin",
+    "dobSerial": 28421,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "Australia"
+  },
+  {
+    "name": "BJ Hodge",
+    "dobSerial": 27392,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Australia"
+  },
+  {
+    "name": "BJ Rohrer",
+    "dobSerial": 29671,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Australia"
+  },
+  {
+    "name": "BMAJ Mendis",
+    "dobSerial": 30331,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "BR Dunk",
+    "dobSerial": 31847,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "BW Hilfenhaus",
+    "dobSerial": 30390,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "C de Grandhomme",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Legbreak",
+    "country": ""
+  },
+  {
+    "name": "C Ganapathy",
+    "dobSerial": 29747,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "C Ingram",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "C Madan",
+    "dobSerial": 30239,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "C Munro",
+    "dobSerial": 31847,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "New Zealand"
+  },
+  {
+    "name": "C Nanda",
+    "dobSerial": 28943,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "CA Ingram",
+    "dobSerial": 31231,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "South Africa"
+  },
+  {
+    "name": "CA Lynn",
+    "dobSerial": 32973,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Australia"
+  },
+  {
+    "name": "CA Pujara",
+    "dobSerial": 32167,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "CH Gayle",
+    "dobSerial": 29119,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "West Indies"
+  },
+  {
+    "name": "CH Morris",
+    "dobSerial": 31897,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "CJ Anderson",
+    "dobSerial": 33220,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium-fast",
+    "country": "New Zealand"
+  },
+  {
+    "name": "CJ Ferguson",
+    "dobSerial": 31007,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "CJ Jordan",
+    "dobSerial": 32420,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "England"
+  },
+  {
+    "name": "CJ McKay",
+    "dobSerial": 30367,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "CK Kapugedera",
+    "dobSerial": 31832,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "CK Langeveldt",
+    "dobSerial": 27380,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "England"
+  },
+  {
+    "name": "CL White",
+    "dobSerial": 30546,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "Australia"
+  },
+  {
+    "name": "CM Gautam",
+    "dobSerial": 31479,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "CR Brathwaite",
+    "dobSerial": 32342,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "West Indies"
+  },
+  {
+    "name": "CR Woakes",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "CRD Fernando",
+    "dobSerial": 29055,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "D du Preez",
+    "dobSerial": 29898,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "D Kalyankrishna",
+    "dobSerial": 30666,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "D Salunkhe",
+    "dobSerial": 30267,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "D Shorey",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "D Short",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": ""
+  },
+  {
+    "name": "D Wiese",
+    "dobSerial": 31185,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "D Willey",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "DA Miller",
+    "dobSerial": 32669,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "South Africa"
+  },
+  {
+    "name": "DA Warner",
+    "dobSerial": 31712,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "Australia"
+  },
+  {
+    "name": "DAJ Bracewell",
+    "dobSerial": 33144,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "DB Das",
+    "dobSerial": 31677,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "DB Ravi Teja",
+    "dobSerial": 32025,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "DE Bollinger",
+    "dobSerial": 29791,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "DH Yagnik",
+    "dobSerial": 30489,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "DJ Bravo",
+    "dobSerial": 30596,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "West Indies"
+  },
+  {
+    "name": "DJ Harris",
+    "dobSerial": 29220,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "DJ Hooda",
+    "dobSerial": 34808,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "DJ Hussey",
+    "dobSerial": 28321,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Australia"
+  },
+  {
+    "name": "DJ Jacobs",
+    "dobSerial": 30259,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "DJ Muthuswami",
+    "dobSerial": 29654,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "DJ Thornely",
+    "dobSerial": 28764,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "DJG Sammy",
+    "dobSerial": 30670,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "West Indies"
+  },
+  {
+    "name": "DL Chahar",
+    "dobSerial": 33823,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "DL Vettori",
+    "dobSerial": 28882,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "New Zealand"
+  },
+  {
+    "name": "DM Bravo",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "DNT Zoysa",
+    "dobSerial": 28623,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "DP Nannes",
+    "dobSerial": 27896,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "DP Vijaykumar",
+    "dobSerial": 31705,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "DPMD Jayawardene",
+    "dobSerial": 28272,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "DR Martyn",
+    "dobSerial": 26227,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "DR Smith",
+    "dobSerial": 30418,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "West Indies"
+  },
+  {
+    "name": "DS Kulkarni",
+    "dobSerial": 32487,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "DS Lehmann",
+    "dobSerial": 25604,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Australia"
+  },
+  {
+    "name": "DT Christian",
+    "dobSerial": 30440,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "DT Patil",
+    "dobSerial": 31022,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "DW Steyn",
+    "dobSerial": 30494,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "E Lewis",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "EJG Morgan",
+    "dobSerial": 31665,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "England"
+  },
+  {
+    "name": "ER Dwivedi",
+    "dobSerial": 32346,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "F Behardien",
+    "dobSerial": 30598,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "F du Plessis",
+    "dobSerial": 30876,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "South Africa"
+  },
+  {
+    "name": "FH Edwards",
+    "dobSerial": 29988,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "West Indies"
+  },
+  {
+    "name": "FY Fazal",
+    "dobSerial": 31297,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "G Gambhir",
+    "dobSerial": 29873,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "Gagandeep Singh",
+    "dobSerial": 29862,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "GB Hogg",
+    "dobSerial": 25970,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm chinaman",
+    "country": "Australia"
+  },
+  {
+    "name": "GC Smith",
+    "dobSerial": 29618,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "South Africa"
+  },
+  {
+    "name": "GD McGrath",
+    "dobSerial": 25608,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "GH Vihari",
+    "dobSerial": 34255,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "GJ Bailey",
+    "dobSerial": 30201,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "GJ Maxwell",
+    "dobSerial": 32430,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Australia"
+  },
+  {
+    "name": "GR Napier",
+    "dobSerial": 29226,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "England"
+  },
+  {
+    "name": "GS Sandhu",
+    "dobSerial": 34134,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "Gurkeerat Singh",
+    "dobSerial": 33053,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "H Brar",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": ""
+  },
+  {
+    "name": "H Das",
+    "dobSerial": 31756,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "H Gurney",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "H Klaasen",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "H Vihari",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": ""
+  },
+  {
+    "name": "H Viljoen",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "Harbhajan Singh",
+    "dobSerial": 29405,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Harmeet Singh",
+    "dobSerial": 33854,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "Harmeet Singh (2)",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "Harpreet Singh",
+    "dobSerial": 33461,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "HH Gibbs",
+    "dobSerial": 27083,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm bowler",
+    "country": "South Africa"
+  },
+  {
+    "name": "HH Pandya",
+    "dobSerial": 34253,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "HM Amla",
+    "dobSerial": 30406,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "South Africa"
+  },
+  {
+    "name": "HV Patel",
+    "dobSerial": 33200,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "I Malhotra",
+    "dobSerial": 30825,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "I Sharma",
+    "dobSerial": 32388,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "I Sodhi",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": ""
+  },
+  {
+    "name": "IC Pandey",
+    "dobSerial": 32735,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "IK Pathan",
+    "dobSerial": 30982,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "Imran Tahir",
+    "dobSerial": 28941,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "Iqbal Abdulla",
+    "dobSerial": 32844,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "IR Jaggi",
+    "dobSerial": 32535,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "Ishan Kishan",
+    "dobSerial": 35994,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "J Archer",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "J Arunkumar",
+    "dobSerial": 27412,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "J Bairstow",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "J Behrendorff",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "J Botha",
+    "dobSerial": 30073,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "South Africa"
+  },
+  {
+    "name": "J Dala",
+    "dobSerial": null,
+    "battingHand": "",
+    "bowlingSkill": "Right-arm Medium",
+    "country": ""
+  },
+  {
+    "name": "J Denly",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "J Searles",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "J Suchith",
+    "dobSerial": 34350,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "J Syed Mohammad",
+    "dobSerial": 30470,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "J Theron",
+    "dobSerial": 31252,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "J Yadav",
+    "dobSerial": 32895,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "JA Morkel",
+    "dobSerial": 29747,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "Jaskaran Singh",
+    "dobSerial": 32755,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "JC Buttler",
+    "dobSerial": 33124,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "England"
+  },
+  {
+    "name": "JD Ryder",
+    "dobSerial": 30900,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "JD Unadkat",
+    "dobSerial": 33529,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "JDP Oram",
+    "dobSerial": 28699,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "JDS Neesham",
+    "dobSerial": 33133,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "JE Taylor",
+    "dobSerial": 30855,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "New Zealand"
+  },
+  {
+    "name": "JEC Franklin",
+    "dobSerial": 29532,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "JH Kallis",
+    "dobSerial": 27683,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "JJ Bumrah",
+    "dobSerial": 34309,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "JJ Roy",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "JJ van der Wath",
+    "dobSerial": 28500,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "JM Kemp",
+    "dobSerial": 28400,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "JO Holder",
+    "dobSerial": 33547,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "West Indies"
+  },
+  {
+    "name": "Joginder Sharma",
+    "dobSerial": 30612,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "JP Duminy",
+    "dobSerial": 30786,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "South Africa"
+  },
+  {
+    "name": "JP Faulkner",
+    "dobSerial": 32992,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "JR Hopes",
+    "dobSerial": 28787,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "JW Hastings",
+    "dobSerial": 31355,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "K Ahmed",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "K Goel",
+    "dobSerial": 31770,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "K Gowtham",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": ""
+  },
+  {
+    "name": "K Khejroliya",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "K Paul",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "K Rabada",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "K Santokie",
+    "dobSerial": 31036,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "West Indies"
+  },
+  {
+    "name": "K Upadhyay",
+    "dobSerial": 31581,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "KA Pollard",
+    "dobSerial": 31909,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "West Indies"
+  },
+  {
+    "name": "KAJ Roach",
+    "dobSerial": 32324,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "West Indies"
+  },
+  {
+    "name": "Kamran Akmal",
+    "dobSerial": 29964,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Kamran Khan",
+    "dobSerial": 33307,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "Karanveer Singh",
+    "dobSerial": 32089,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "KB Arun Karthik",
+    "dobSerial": 31458,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "KC Cariappa",
+    "dobSerial": 34437,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "KC Sangakkara",
+    "dobSerial": 28425,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "KD Karthik",
+    "dobSerial": 31199,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "KH Devdhar",
+    "dobSerial": 32856,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "KH Pandya",
+    "dobSerial": 33321,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "KJ Abbott",
+    "dobSerial": 31946,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "KK Cooper",
+    "dobSerial": 32555,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "West Indies"
+  },
+  {
+    "name": "KK Nair",
+    "dobSerial": 33578,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "KL Rahul",
+    "dobSerial": 33712,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "KM Asif",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": ""
+  },
+  {
+    "name": "KM Jadhav",
+    "dobSerial": 31132,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "KMDN Kulasekara",
+    "dobSerial": 30154,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "KP Appanna",
+    "dobSerial": 32497,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "KP Pietersen",
+    "dobSerial": 29399,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "South Africa"
+  },
+  {
+    "name": "KS Williamson",
+    "dobSerial": 33093,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "New Zealand"
+  },
+  {
+    "name": "Kuldeep Yadav",
+    "dobSerial": 34682,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm chinaman",
+    "country": "India"
+  },
+  {
+    "name": "KV Sharma",
+    "dobSerial": 32073,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "KW Richardson",
+    "dobSerial": 33281,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "L Ablish",
+    "dobSerial": 30288,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "L Balaji",
+    "dobSerial": 29856,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "L Ferguson",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "L Livingstone",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": ""
+  },
+  {
+    "name": "L Ngidi",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": ""
+  },
+  {
+    "name": "L Plunkett",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "L Ronchi",
+    "dobSerial": 29699,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "LA Carseldine",
+    "dobSerial": 27715,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "Australia"
+  },
+  {
+    "name": "LA Pomersbach",
+    "dobSerial": 30953,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "LH Ferguson",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "LJ Wright",
+    "dobSerial": 31113,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "England"
+  },
+  {
+    "name": "LMP Simmons",
+    "dobSerial": 31072,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "West Indies"
+  },
+  {
+    "name": "LPC Silva",
+    "dobSerial": 29203,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "LR Shukla",
+    "dobSerial": 29712,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "LRPL Taylor",
+    "dobSerial": 30749,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "New Zealand"
+  },
+  {
+    "name": "M Ali",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": ""
+  },
+  {
+    "name": "M Ashwin",
+    "dobSerial": 33124,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "M de Lange",
+    "dobSerial": 33159,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "M Kaif",
+    "dobSerial": 29556,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "M Kartik",
+    "dobSerial": 28014,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "M Klinger",
+    "dobSerial": 29406,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "Australia"
+  },
+  {
+    "name": "M Lomror",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": ""
+  },
+  {
+    "name": "M Manhas",
+    "dobSerial": 29140,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "M Markande",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": ""
+  },
+  {
+    "name": "M Morkel",
+    "dobSerial": 30961,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "M Muralitharan",
+    "dobSerial": 26406,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "M Ntini",
+    "dobSerial": 28312,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "M Rawat",
+    "dobSerial": 31345,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "M Santner",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": ""
+  },
+  {
+    "name": "M Ur Rahman",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": ""
+  },
+  {
+    "name": "M Vijay",
+    "dobSerial": 30773,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "M Vohra",
+    "dobSerial": 34168,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "M Wood",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "MA Agarwal",
+    "dobSerial": 33285,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "MA Khote",
+    "dobSerial": 29333,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "MA Starc",
+    "dobSerial": 32903,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "Mandeep Singh",
+    "dobSerial": 33590,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "Mashrafe Mortaza",
+    "dobSerial": 30594,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Bangladesh"
+  },
+  {
+    "name": "MB Parmar",
+    "dobSerial": 32245,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "MC Henriques",
+    "dobSerial": 31809,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "MC Juneja",
+    "dobSerial": 33128,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "MD Mishra",
+    "dobSerial": 30721,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "MDKJ Perera",
+    "dobSerial": 33102,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "MEK Hussey",
+    "dobSerial": 27541,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "MF Maharoof",
+    "dobSerial": 30932,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "MG Johnson",
+    "dobSerial": 29892,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "MG Neser",
+    "dobSerial": 32961,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "Misbah-ul-Haq",
+    "dobSerial": 27177,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "Pakistan"
+  },
+  {
+    "name": "MJ Clarke",
+    "dobSerial": 29678,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Australia"
+  },
+  {
+    "name": "MJ Guptill",
+    "dobSerial": 31685,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "New Zealand"
+  },
+  {
+    "name": "MJ Henry",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "MJ Lumb",
+    "dobSerial": 29263,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "England"
+  },
+  {
+    "name": "MJ McClenaghan",
+    "dobSerial": 31574,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "MK Pandey",
+    "dobSerial": 32761,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "MK Tiwary",
+    "dobSerial": 31365,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "ML Hayden",
+    "dobSerial": 26235,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "MM Patel",
+    "dobSerial": 30509,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "MM Sharma",
+    "dobSerial": 32404,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "MN Samuels",
+    "dobSerial": 29622,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "West Indies"
+  },
+  {
+    "name": "MN van Wyk",
+    "dobSerial": 28934,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "South Africa"
+  },
+  {
+    "name": "Mohammad Ashraful",
+    "dobSerial": 30870,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Bangladesh"
+  },
+  {
+    "name": "Mohammad Asif",
+    "dobSerial": 30305,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Mohammad Hafeez",
+    "dobSerial": 29511,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Mohammad Nabi",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": ""
+  },
+  {
+    "name": "Mohammed Shami",
+    "dobSerial": 33119,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "Mohammed Siraj",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "MP Stoinis",
+    "dobSerial": 32736,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "MR Marsh",
+    "dobSerial": 33531,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "MS Bisla",
+    "dobSerial": 31043,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "MS Dhoni",
+    "dobSerial": 29774,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "MS Gony",
+    "dobSerial": 30685,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "MS Wade",
+    "dobSerial": 32137,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "Mustafizur Rahman",
+    "dobSerial": 34948,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "Bangladesh"
+  },
+  {
+    "name": "MV Boucher",
+    "dobSerial": 28097,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "N Naik",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "N Pooran",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "N Rana",
+    "dobSerial": 34330,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "N Saini",
+    "dobSerial": 32444,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "India"
+  },
+  {
+    "name": "NB Singh",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "ND Doshi",
+    "dobSerial": 28769,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "Niraj Patel",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "NJ Maddinson",
+    "dobSerial": 33593,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Australia"
+  },
+  {
+    "name": "NJ Rimmington",
+    "dobSerial": 30266,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "NK Patel",
+    "dobSerial": 29671,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "NL McCullum",
+    "dobSerial": 29465,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "New Zealand"
+  },
+  {
+    "name": "NLTC Perera",
+    "dobSerial": 32601,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "NM Coulter-Nile",
+    "dobSerial": 32061,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "NS Naik",
+    "dobSerial": 34647,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "NV Ojha",
+    "dobSerial": 30517,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "O Thomas",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "OA Shah",
+    "dobSerial": 28785,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "England"
+  },
+  {
+    "name": "P Amarnath",
+    "dobSerial": 30103,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "P Awana",
+    "dobSerial": 31612,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "P Chopra",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "P Dharmani",
+    "dobSerial": 27299,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "P Dogra",
+    "dobSerial": 31005,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "P Krishna",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "P Kumar",
+    "dobSerial": 31687,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "P Negi",
+    "dobSerial": 33975,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "P Parameswaran",
+    "dobSerial": 31197,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "P Prasanth",
+    "dobSerial": 31189,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "P R Barman",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Legbreak",
+    "country": ""
+  },
+  {
+    "name": "P Raj",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": ""
+  },
+  {
+    "name": "P Sahu",
+    "dobSerial": 31280,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "P Shaw",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "P Suyal",
+    "dobSerial": 32796,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "PA Patel",
+    "dobSerial": 31115,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "PA Reddy",
+    "dobSerial": 33280,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "Pankaj Singh",
+    "dobSerial": 31173,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "Parvez Rasool",
+    "dobSerial": 32552,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "PC Valthaty",
+    "dobSerial": 30657,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "PD Collingwood",
+    "dobSerial": 27906,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "England"
+  },
+  {
+    "name": "PJ Cummins",
+    "dobSerial": 34097,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "PJ Sangwan",
+    "dobSerial": 33182,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "PM Sarvesh Kumar",
+    "dobSerial": 32624,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "PP Chawla",
+    "dobSerial": 32501,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "PP Ojha",
+    "dobSerial": 31660,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "PR Shah",
+    "dobSerial": 32084,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "PSP Handscomb",
+    "dobSerial": 33354,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "Australia"
+  },
+  {
+    "name": "PV Tambe",
+    "dobSerial": 26214,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "Q de Kock",
+    "dobSerial": 33955,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "South Africa"
+  },
+  {
+    "name": "R Ashwin",
+    "dobSerial": 31672,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "R Bhatia",
+    "dobSerial": 29150,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "R Bhui",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "R Bishnoi",
+    "dobSerial": 32058,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "R Dhawan",
+    "dobSerial": 32923,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "R Dravid",
+    "dobSerial": 26675,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "R McLaren",
+    "dobSerial": 30356,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "R Ninan",
+    "dobSerial": 31370,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "R Parag",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Legbreak",
+    "country": ""
+  },
+  {
+    "name": "R Rampaul",
+    "dobSerial": 30970,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "West Indies"
+  },
+  {
+    "name": "R Salam",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm Fast",
+    "country": ""
+  },
+  {
+    "name": "R Sathish",
+    "dobSerial": 29600,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "R Sharma",
+    "dobSerial": 31897,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "R Shukla",
+    "dobSerial": 33113,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "R Singh",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "R Tewatia",
+    "dobSerial": 34109,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "R Vinay Kumar",
+    "dobSerial": 30724,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "RA Jadeja",
+    "dobSerial": 32483,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "RA Shaikh",
+    "dobSerial": 31210,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "RA Tripathi",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": ""
+  },
+  {
+    "name": "Rashid Khan",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": ""
+  },
+  {
+    "name": "RD Chahar",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": ""
+  },
+  {
+    "name": "RE Levi",
+    "dobSerial": 32156,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "RE van der Merwe",
+    "dobSerial": 31047,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "South Africa"
+  },
+  {
+    "name": "RG More",
+    "dobSerial": 33636,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "RG Sharma",
+    "dobSerial": 31897,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "RJ Harris",
+    "dobSerial": 29139,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "RJ Peterson",
+    "dobSerial": 29071,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "South Africa"
+  },
+  {
+    "name": "RJ Quiney",
+    "dobSerial": 30183,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "RN ten Doeschate",
+    "dobSerial": 29402,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "Netherlands"
+  },
+  {
+    "name": "RP Singh",
+    "dobSerial": 31387,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "RR Bhatkal",
+    "dobSerial": 31291,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "RR Bose",
+    "dobSerial": 28913,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "RR Pant",
+    "dobSerial": 35707,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "RR Powar",
+    "dobSerial": 28630,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "RR Raje",
+    "dobSerial": 31658,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "RR Rossouw",
+    "dobSerial": 32790,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "South Africa"
+  },
+  {
+    "name": "RR Sarwan",
+    "dobSerial": 29395,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "West Indies"
+  },
+  {
+    "name": "RS Bopara",
+    "dobSerial": 31171,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "England"
+  },
+  {
+    "name": "RS Gavaskar",
+    "dobSerial": 27810,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "RS Sodhi",
+    "dobSerial": 29512,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "RT Ponting",
+    "dobSerial": 27382,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "RV Gomez",
+    "dobSerial": 31336,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "RV Pawar",
+    "dobSerial": 29104,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "RV Uthappa",
+    "dobSerial": 31362,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "RW Price",
+    "dobSerial": 27923,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Zimbabwea"
+  },
+  {
+    "name": "S Anirudha",
+    "dobSerial": 31881,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "S Aravind",
+    "dobSerial": 30780,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "S Badree",
+    "dobSerial": 29654,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "West Indies"
+  },
+  {
+    "name": "S Badrinath",
+    "dobSerial": 29463,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "S Chanderpaul",
+    "dobSerial": 27257,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "West Indies"
+  },
+  {
+    "name": "S Curran",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium-fast",
+    "country": ""
+  },
+  {
+    "name": "S Dhawan",
+    "dobSerial": 31386,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "S Dube",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "S Gill",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "S Gopal",
+    "dobSerial": 34216,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "S Hetmyer",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "S Kaul",
+    "dobSerial": 33012,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "S Kaushik",
+    "dobSerial": 34949,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm chinaman",
+    "country": "India"
+  },
+  {
+    "name": "S Kuggeleijn",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": ""
+  },
+  {
+    "name": "S Ladda",
+    "dobSerial": 31603,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "S Lamichhane",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": ""
+  },
+  {
+    "name": "S Mavi",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "S Midhun",
+    "dobSerial": null,
+    "battingHand": "",
+    "bowlingSkill": "Legbreak",
+    "country": ""
+  },
+  {
+    "name": "S Nadeem",
+    "dobSerial": 32732,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "S Narwal",
+    "dobSerial": 30057,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "S Rana",
+    "dobSerial": 30943,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "S Randiv",
+    "dobSerial": 31077,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "S Rutherford",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "S Sharma",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "S Singh",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "S Sohal",
+    "dobSerial": 32091,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "S Sreesanth",
+    "dobSerial": 30353,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "S Sriram",
+    "dobSerial": 27811,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "S Tyagi",
+    "dobSerial": 32037,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "S Vidyut",
+    "dobSerial": 29923,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "S Warrier",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "SA Abbott",
+    "dobSerial": 33663,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "SA Asnodkar",
+    "dobSerial": 30770,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "SA Yadav",
+    "dobSerial": 33130,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Sachin Baby",
+    "dobSerial": 32495,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Salman Butt",
+    "dobSerial": 30962,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Sandeep Sharma",
+    "dobSerial": 34107,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "SB Bangar",
+    "dobSerial": 26583,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "SB Jakati",
+    "dobSerial": 29552,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "SB Joshi",
+    "dobSerial": 25725,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "SB Styris",
+    "dobSerial": 27585,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "SB Wagh",
+    "dobSerial": 32425,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "SC Ganguly",
+    "dobSerial": 26488,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "SD Chitnis",
+    "dobSerial": 31903,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "SD Lad",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "SE Bond",
+    "dobSerial": 27552,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "New Zealand"
+  },
+  {
+    "name": "SE Marsh",
+    "dobSerial": 30506,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Australia"
+  },
+  {
+    "name": "Shahid Afridi",
+    "dobSerial": 29281,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "dobSerial": 31860,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Bangladesh"
+  },
+  {
+    "name": "Shivam Sharma",
+    "dobSerial": 34221,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Shoaib Ahmed",
+    "dobSerial": 33102,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Shoaib Akhtar",
+    "dobSerial": 27619,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Pakistan"
+  },
+  {
+    "name": "Shoaib Malik",
+    "dobSerial": 29983,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Pakistan"
+  },
+  {
+    "name": "SJ Srivastava",
+    "dobSerial": 29851,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "SK Raina",
+    "dobSerial": 31743,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "SK Trivedi",
+    "dobSerial": 30198,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "SK Warne",
+    "dobSerial": 25459,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "Australia"
+  },
+  {
+    "name": "SL Malinga",
+    "dobSerial": 30556,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "SM Boland",
+    "dobSerial": 32609,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "SM Harwood",
+    "dobSerial": 27089,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "SM Katich",
+    "dobSerial": 27627,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm chinaman",
+    "country": "Australia"
+  },
+  {
+    "name": "SM Pollock",
+    "dobSerial": 26861,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "SMSM Senanayake",
+    "dobSerial": 31087,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "SN Khan",
+    "dobSerial": 35730,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": "India"
+  },
+  {
+    "name": "SN Thakur",
+    "dobSerial": 33527,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "Sohail Tanvir",
+    "dobSerial": 31028,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium-fast",
+    "country": "Pakistan"
+  },
+  {
+    "name": "SP Fleming",
+    "dobSerial": 26755,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "New Zealand"
+  },
+  {
+    "name": "SP Goswami",
+    "dobSerial": 32646,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "SP Jackson",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "SP Narine",
+    "dobSerial": 32289,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "West Indies"
+  },
+  {
+    "name": "SPD Smith",
+    "dobSerial": 32661,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "SR Tendulkar",
+    "dobSerial": 26778,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "SR Watson",
+    "dobSerial": 29754,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Australia"
+  },
+  {
+    "name": "SS Agarwal",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": ""
+  },
+  {
+    "name": "SS Iyer",
+    "dobSerial": 34674,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "SS Mundhe",
+    "dobSerial": 32443,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "SS Sarkar",
+    "dobSerial": 31031,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "SS Shaikh",
+    "dobSerial": 31795,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "SS Tiwary",
+    "dobSerial": 32872,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "ST Jayasuriya",
+    "dobSerial": 25384,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "STR Binny",
+    "dobSerial": 30836,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "Sunny Gupta",
+    "dobSerial": 32413,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Sunny Singh",
+    "dobSerial": 31764,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "SV Samson",
+    "dobSerial": 34649,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "SW Billings",
+    "dobSerial": 33404,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "England"
+  },
+  {
+    "name": "SW Tait",
+    "dobSerial": 30369,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "Australia"
+  },
+  {
+    "name": "Swapnil Singh",
+    "dobSerial": 33260,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "T Curran",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "T Henderson",
+    "dobSerial": 27242,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "South Africa"
+  },
+  {
+    "name": "T Kohli",
+    "dobSerial": 32494,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "T Mishra",
+    "dobSerial": 31768,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "T Natarajan",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": ""
+  },
+  {
+    "name": "T Shamsi",
+    "dobSerial": 32922,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Slow left-arm chinaman",
+    "country": "South Africa"
+  },
+  {
+    "name": "T Taibu",
+    "dobSerial": 30450,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Zimbabwea"
+  },
+  {
+    "name": "T Thushara",
+    "dobSerial": 29646,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "TA Boult",
+    "dobSerial": 32711,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "New Zealand"
+  },
+  {
+    "name": "TD Paine",
+    "dobSerial": 31024,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "Tejas Baroka",
+    "dobSerial": null,
+    "battingHand": "",
+    "bowlingSkill": "Legbreak googly",
+    "country": ""
+  },
+  {
+    "name": "TG Southee",
+    "dobSerial": 32488,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "New Zealand"
+  },
+  {
+    "name": "TL Suman",
+    "dobSerial": 30665,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "TM Dilshan",
+    "dobSerial": 28047,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "TM Head",
+    "dobSerial": 34332,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "Australia"
+  },
+  {
+    "name": "TM Srivastava",
+    "dobSerial": 32819,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "TP Sudhindra",
+    "dobSerial": 30796,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "India"
+  },
+  {
+    "name": "TR Birt",
+    "dobSerial": 29929,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "TS Mills",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "Left-arm fast",
+    "country": ""
+  },
+  {
+    "name": "U Kaul",
+    "dobSerial": 32113,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "UA Birla",
+    "dobSerial": 32829,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "UBT Chand",
+    "dobSerial": 34054,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Umar Gul",
+    "dobSerial": 30786,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "Pakistan"
+  },
+  {
+    "name": "UT Khawaja",
+    "dobSerial": 31764,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Australia"
+  },
+  {
+    "name": "UT Yadav",
+    "dobSerial": 32075,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "V Chakravarthy",
+    "dobSerial": null,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak",
+    "country": ""
+  },
+  {
+    "name": "V Kohli",
+    "dobSerial": 32452,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "V Pratap Singh",
+    "dobSerial": 33727,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "V Sehwag",
+    "dobSerial": 28783,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "V Shankar",
+    "dobSerial": 33264,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "VH Zol",
+    "dobSerial": 34661,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Vishnu Vinod",
+    "dobSerial": null,
+    "battingHand": "Right_hand",
+    "bowlingSkill": "",
+    "country": ""
+  },
+  {
+    "name": "VR Aaron",
+    "dobSerial": 32810,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm fast",
+    "country": "India"
+  },
+  {
+    "name": "VRV Singh",
+    "dobSerial": 30942,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "VS Malik",
+    "dobSerial": 30445,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "VS Yeligati",
+    "dobSerial": 31160,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "VVS Laxman",
+    "dobSerial": 27334,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "VY Mahesh",
+    "dobSerial": 32132,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium-fast",
+    "country": "India"
+  },
+  {
+    "name": "W Jaffer",
+    "dobSerial": 28537,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "WA Mota",
+    "dobSerial": 29849,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "Washington Sundar",
+    "dobSerial": null,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": ""
+  },
+  {
+    "name": "WD Parnell",
+    "dobSerial": 32719,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm medium-fast",
+    "country": "South Africa"
+  },
+  {
+    "name": "WP Saha",
+    "dobSerial": 30979,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "WPUJC Vaas",
+    "dobSerial": 27056,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "Sri Lanka"
+  },
+  {
+    "name": "X Thalaivan Sargunam",
+    "dobSerial": 31182,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Y Gnaneswara Rao",
+    "dobSerial": 30919,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "Y Nagar",
+    "dobSerial": 32879,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Y Venugopal Rao",
+    "dobSerial": 30008,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "YA Abdulla",
+    "dobSerial": 30333,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "India"
+  },
+  {
+    "name": "Yashpal Singh",
+    "dobSerial": 29917,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "India"
+  },
+  {
+    "name": "YK Pathan",
+    "dobSerial": 30272,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm offbreak",
+    "country": "India"
+  },
+  {
+    "name": "Younis Khan",
+    "dobSerial": 28458,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Right-arm medium",
+    "country": "Pakistan"
+  },
+  {
+    "name": "YS Chahal",
+    "dobSerial": 33077,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Legbreak googly",
+    "country": "India"
+  },
+  {
+    "name": "Yuvraj Singh",
+    "dobSerial": 29932,
+    "battingHand": "Left_Hand",
+    "bowlingSkill": "Slow left-arm orthodox",
+    "country": "India"
+  },
+  {
+    "name": "YV Takawale",
+    "dobSerial": 30991,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "NULL",
+    "country": "India"
+  },
+  {
+    "name": "Z Khan",
+    "dobSerial": 28770,
+    "battingHand": "Right_Hand",
+    "bowlingSkill": "Left-arm fast-medium",
+    "country": "India"
+  }
+]

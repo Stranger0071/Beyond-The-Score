@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+beyondthescore/node_modules/
+
+# Build outputs
+dist/
+beyondthescore/dist/
+beyondthescore/dist-ssr/
+
+# Local env files and logs
+.env*.local
+*.log
+npm-debug.log*
+
+# OS/Editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Large dataset files (exceeding GitHub limit of 100MB)
+beyondthescore/src/IPL.csv
