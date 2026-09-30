@@ -1,34 +1,39 @@
 import { useState, useEffect, useRef } from 'react'
+import {
+  Award, BarChart3, BookOpen, CalendarDays, ClipboardList, Clock3, FileText,
+  Home, LayoutDashboard, Lightbulb, MapPin, Menu, Settings2, Swords, Trophy,
+  UsersRound,
+} from 'lucide-react'
 
 const NAV_GROUPS = [
   {
     label: 'Dashboard',
     items: [
-      { id: 'section-home', label: 'Home', icon: '🏠' },
-      { id: 'section-overview', label: 'Overview', icon: '◎' },
-      { id: 'section-tournament', label: 'Tournaments', icon: '🏆' },
-      { id: 'section-matches', label: 'Matches', icon: '📅' },
+      { id: 'section-home', label: 'Home', icon: Home },
+      { id: 'section-overview', label: 'Overview', icon: LayoutDashboard },
+      { id: 'section-tournament', label: 'Tournaments', icon: Trophy },
+      { id: 'section-matches', label: 'Matches', icon: CalendarDays },
     ],
   },
   {
     label: 'Match Analysis',
     items: [
-      { id: 'section-narration', label: 'AI Summary', icon: '✨' },
-      { id: 'section-scorecard', label: 'Scorecard', icon: '🏏' },
-      { id: 'section-analytics', label: 'Analytics', icon: '📊' },
-      { id: 'section-performers', label: 'Performers', icon: '⭐' },
-      { id: 'section-squad', label: 'Squads', icon: '👥' },
-      { id: 'section-h2h', label: 'Head-to-Head', icon: '⚔️' },
-      { id: 'section-venue', label: 'Venue', icon: '🏟️' },
+      { id: 'section-narration', label: 'Match Summary', icon: FileText },
+      { id: 'section-scorecard', label: 'Scorecard', icon: ClipboardList },
+      { id: 'section-analytics', label: 'Analytics', icon: BarChart3 },
+      { id: 'section-performers', label: 'Performers', icon: Award },
+      { id: 'section-squad', label: 'Squads', icon: UsersRound },
+      { id: 'section-h2h', label: 'Head-to-Head', icon: Swords },
+      { id: 'section-venue', label: 'Venue', icon: MapPin },
     ],
   },
   {
     label: 'More',
     items: [
-      { id: 'section-insights', label: 'Insights', icon: '💡' },
-      { id: 'section-timeline', label: 'Timeline', icon: '⏱' },
-      { id: 'section-glossary', label: 'Glossary', icon: '📖' },
-      { id: 'section-settings', label: 'Settings', icon: '⚙️' },
+      { id: 'section-insights', label: 'Insights', icon: Lightbulb },
+      { id: 'section-timeline', label: 'Timeline', icon: Clock3 },
+      { id: 'section-glossary', label: 'Glossary', icon: BookOpen },
+      { id: 'section-settings', label: 'Settings', icon: Settings2 },
     ],
   },
 ]
@@ -104,9 +109,7 @@ export default function NavBar({ activeTab, onTabChange }) {
             className="hidden lg:flex items-center justify-center text-slate-400 hover:text-white transition-colors cursor-pointer shrink-0"
             aria-label="Toggle navigation"
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
+            <Menu className="h-6 w-6" />
           </button>
 
           <button
@@ -164,11 +167,12 @@ export default function NavBar({ activeTab, onTabChange }) {
               <div className="space-y-0.5">
                 {group.items.map((item) => {
                   const isActive = activeTab === item.id
+                  const ItemIcon = item.icon
                   return (
                     <button
                       key={item.id}
                       onClick={() => handleTabClick(item.id)}
-                      className={`group relative flex w-full items-center rounded-xl px-3 py-2.5 text-left transition-all duration-200 cursor-pointer ${collapsed ? 'justify-center' : 'gap-3'
+                      className={`group relative flex w-full items-center rounded-xl px-3 py-2.5 text-left transition-all duration-200 cursor-pointer motion-safe:hover:-translate-y-px active:translate-y-0 ${collapsed ? 'justify-center' : 'gap-3'
                         } ${isActive
                           ? 'bg-white/[0.08] text-white'
                           : 'text-slate-400 hover:bg-white/[0.04] hover:text-slate-200'
@@ -194,8 +198,8 @@ export default function NavBar({ activeTab, onTabChange }) {
                         />
                       )}
 
-                      <span className={`shrink-0 text-[14px] transition-transform duration-200 ${isActive ? 'scale-110' : 'group-hover:scale-105'}`}>
-                        {item.icon}
+                      <span className={`flex h-5 w-5 shrink-0 items-center justify-center transition-transform duration-200 motion-safe:group-hover:scale-110 ${isActive ? 'drop-shadow-[0_0_6px_rgba(var(--accent-rgb),0.65)]' : ''}`}>
+                        <ItemIcon className="h-[18px] w-[18px]" />
                       </span>
 
                       {!collapsed && (

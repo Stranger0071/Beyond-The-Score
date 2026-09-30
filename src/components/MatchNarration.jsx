@@ -1,8 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
+import DOMPurify from 'dompurify'
 import { injectGlobalKeyframes, useInView, staggerStyle } from '../utils/animations'
-
-// Gemini API key
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || ""
 
 export default function MatchNarration({ match }) {
   const [reportType, setReportType] = useState('normal')
@@ -29,126 +27,100 @@ export default function MatchNarration({ match }) {
     setError('')
   }
 
-  // Construct match context for the AI
-  const matchContext = `
-    Match: ${match.team1.name} vs ${match.team2.name} (${match.year} season)
-    Venue: ${match.venue}
-    Toss: ${match.tossWinner} won and chose to ${match.tossDecision}
-    First Innings: ${match.team1.runs}/${match.team1.wickets} in ${match.team1.overs} overs
-    Second Innings: ${match.team2.runs}/${match.team2.wickets} in ${match.team2.overs} overs
-    Result: ${match.winner} won by ${match.margin}
-    Player of the Match: ${match.playerOfMatch}
-  `
-
-  // Handle countdown timer — auto-retry when it reaches 0
-  useEffect(() => {
-    if (countdown <= 0) {
-      if (pendingRetry) {
-        setError('')
-        const retryType = pendingRetry
-        setPendingRetry(null)
-        generateNarration(retryType)
-      }
-      return
-    }
-    const timer = setInterval(() => {
-      setCountdown((prev) => prev - 1)
-    }, 1000)
-    return () => clearInterval(timer)
-  }, [countdown])
-
-  const generateNarration = async (type) => {
-    if (!GEMINI_API_KEY) return
+  const generateNarration = useCallback(async (type) => {
     setLoading(true)
     setError('')
     try {
       const isComp = type === 'comprehensive'
-      const prompt = isComp
-        ? `You are an expert cricket analyst and sports commentator. Write a highly detailed, comprehensive match report summarizing this match. 
-           Please organize your report into the following sections with clear, bold headers and emojis:
-           
-           🏟️ VENUE & PITCH CONDITIONS:
-           Analyze the venue (${match.venue}) and pitch behavior (spin, pace, bounce, boundary sizes) during this match, and how the toss decision played into this. Include realistic simulated weather details (temperature, humidity, and the crucial dew factor for evening matches) and how they influenced the gameplay (e.g., grip on the ball, swing).
-           
-           🏏 INNINGS BREAKDOWN & TURNING POINTS:
-           A chronological analysis of the key phases of both innings, highlighting pivotal partnerships, critical bowling spells, and momentum-shifting moments.
-           
-           🎯 TACTICAL REVIEW & MOTM:
-           Evaluate the captaincy decisions, tactical execution, and how the Player of the Match (${match.playerOfMatch}) carried their team to victory.
-           
-           Make it sound highly professional, expert-level, and dramatic. Use clean formatting with double line breaks between sections. Here are the match details:\n${matchContext}`
-        : `You are an expert cricket commentator. Write a short, engaging, and highly concise narration (1 paragraph, max 5-6 sentences) summarizing this match. Make it sound professional, dramatic, and focusing on the overall result and key players. Here are the details:\n${matchContext}`
-
-      const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`,
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            contents: [
-              {
-                parts: [
-                  {
-                    text: prompt
-                  }
-                ]
-              }
-            ]
-          })
-        }
-      )
+      const response = await fetch('/api/narrate', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          type,
+          match: {
+            id: match.id,
+            team1: match.team1,
+            team2: match.team2,
+            venue: match.venue,
+            tossWinner: match.tossWinner,
+            tossDecision: match.tossDecision,
+            winner: match.winner,
+            margin: match.margin,
+            playerOfMatch: match.playerOfMatch,
+            year: match.year,
+          },
+        }),
+      })
 
       if (response.status === 429) {
-        setCountdown(60)
-        throw new Error("Quota exceeded")
+        const data = await response.json().catch(() => ({}))
+        setCountdown(data.retryAfter || 60)
+        setPendingRetry(type)
+        setError(data.error || 'Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.')
+        return
       }
 
       const data = await response.json()
 
-      if (data.error?.code === 429 || data.error?.status === "RESOURCE_EXHAUSTED" || (data.error?.message && /quota|exhausted|429/i.test(data.error.message))) {
-        setCountdown(60)
-        throw new Error("Quota exceeded")
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to generate narration')
       }
 
-      if (data.error) throw new Error(data.error.message || 'Failed to generate narration')
-
-      const text = data.candidates?.[0]?.content?.parts?.[0]?.text
-      if (text) {
+      const rawText = data.narration
+      if (rawText) {
+        // Defensive sanitization: strip any HTML tags, ensuring output is strictly safe text
+        const safeText = DOMPurify.sanitize(rawText, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] })
         if (isComp) {
-          setComprehensiveNarration(text)
+          setComprehensiveNarration(safeText)
         } else {
-          setNormalNarration(text)
+          setNormalNarration(safeText)
         }
       }
     } catch (err) {
-      if (err.message === "Quota exceeded" || /quota|exhausted|429/i.test(err.message)) {
+      if (err.message === 'Quota exceeded' || /quota|exhausted|429/i.test(err.message)) {
         setCountdown(60)
         setPendingRetry(type)
-        setError("Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.")
+        setError('Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.')
       } else {
         setError(err.message || 'An error occurred while generating the summary.')
       }
     } finally {
       setLoading(false)
     }
-  }
+  }, [match])
+
+  // Handle countdown timer — decrement each second
+  useEffect(() => {
+    if (countdown <= 0) return
+    const timer = setInterval(() => {
+      setCountdown((prev) => Math.max(0, prev - 1))
+    }, 1000)
+    return () => clearInterval(timer)
+  }, [countdown])
+
+  // Trigger retry once countdown hits zero
+  useEffect(() => {
+    if (countdown === 0 && pendingRetry) {
+      const retryType = pendingRetry
+      const timer = setTimeout(() => {
+        setPendingRetry(null)
+        generateNarration(retryType)
+      }, 0)
+      return () => clearTimeout(timer)
+    }
+  }, [countdown, pendingRetry, generateNarration])
 
   // Trigger API call when match changes
   useEffect(() => {
-    if (countdown > 0) {
-      setPendingRetry('normal')
-      setError("Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.")
-      setLoading(false)
-      return
+    if (countdown === 0) {
+      const timer = setTimeout(() => {
+        generateNarration('normal')
+      }, 0)
+      return () => clearTimeout(timer)
     }
-
-    if (GEMINI_API_KEY) {
-      generateNarration('normal')
-    } else {
-      setError("Please add your Gemini API Key in src/components/MatchNarration.jsx (line 4)")
-      setLoading(false)
-    }
-  }, [match.id])
+  }, [match.id, countdown, generateNarration])
 
   const handleTypeChange = (type) => {
     setReportType(type)

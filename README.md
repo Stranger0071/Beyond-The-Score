@@ -36,9 +36,10 @@ Examine detailed performance stats of the match-winners, check official squads a
 ## 🛠️ Tech Stack & Core Libraries
 
 - **Frontend Core:** [React 19](https://react.dev) & [Vite 8](https://vite.dev) (for hot module replacement and high-speed development)
+- **Backend & Proxy:** [Node.js](https://nodejs.org) + [Express](https://expressjs.com) with [Helmet](https://helmetjs.github.io) (CSP & security headers) and [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
 - **Styling:** [Tailwind CSS 4.0](https://tailwindcss.com) (with custom fluid variables, modern glassmorphism, and dark-themed components)
-- **Data Engine:** Customized NodeJS ES modules (`.mjs`) & [XLSX Parser](https://sheetjs.com/) for super-charged pre-processing
-- **AI Integration:** [@google/genai](https://www.npmjs.com/package/@google/genai) for narrative insight synthesis
+- **Data Engine:** Customized NodeJS ES modules (`.mjs`) & [read-excel-file](https://github.com/catamphetamine/read-excel-file) for secure, vulnerability-free pre-processing
+- **AI Integration:** Google Gemini API behind an input-validated, rate-limited backend security proxy with DOMPurify sanitization
 
 ---
 
@@ -46,21 +47,25 @@ Examine detailed performance stats of the match-winners, check official squads a
 
 ```filepath
 Beyond The Score/
-├── beyondthescore/             # Primary React + Vite Application
+├── beyondthescore/             # Primary Application
 │   ├── public/                 # Static Assets
 │   ├── scripts/                # Data pre-compilation pipeline scripts
 │   │   ├── build-ipl-matches.mjs
-│   │   └── build-players-json.mjs
+│   │   ├── build-players-json.mjs
+│   │   └── build-wc-matches.mjs
+│   ├── server/                 # Express Security Proxy (Helmet, Rate Limiting, Gemini API)
+│   │   └── index.js
 │   ├── src/
-│   │   ├── components/         # Premium UI Components (Scorecard, VenueStats, etc.)
-│   │   ├── data/               # Ingested datasets (CSV, XLSX) and loaders
-│   │   ├── utils/              # Data parsing, filters, and helper methods
+│   │   ├── components/         # UI Components (Scorecard, MatchNarration, VenueStats, etc.)
+│   │   ├── data/               # Ingested datasets (CSV, JSON) and loaders
+│   │   ├── utils/              # Data parsing, animations, filters, and helper methods
 │   │   ├── App.jsx             # Root Layout and View Swapping State
 │   │   ├── main.jsx            # Entry point
 │   │   └── index.css           # Custom Tailwind and Core CSS Variables
+│   ├── .env.example            # Environment variables template
 │   ├── package.json
 │   └── vite.config.js
-├── .gitignore                  # Global git ignores
+├── .gitignore                  # Global git ignores (.env files excluded)
 └── README.md                   # You are here!
 ```
 
@@ -81,16 +86,34 @@ cd "Beyond The Score/beyondthescore"
 npm install
 ```
 
-### 3. Parse Datasets & Run the App
-The project includes a custom pipeline that parses complex, multi-megabyte CSV and Excel files into optimized structures before launching the dev server:
+### 3. Configure Environment Variables
+Copy `.env.example` to `.env.local` and add your Google AI Studio Gemini API key:
 ```bash
-# Run data transformation pipeline + start Vite dev server
+cp .env.example .env.local
+```
+Edit `.env.local`:
+```env
+PORT=3001
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+> **Security Note:** Never prefix server-side keys with `VITE_`. All Gemini calls route through the Express proxy to keep keys private and client bundles secure.
+
+### 4. Run the App
+```bash
+# Concurrently starts the backend security proxy (port 3001) and Vite dev server
 npm run dev
 ```
 
-Alternatively, to manually trigger the data preprocessing pipeline:
+Alternatively, to run individual processes:
 ```bash
+# Run data preprocessing pipeline only
 npm run data:sync
+
+# Run the Express proxy server only
+npm run server
+
+# Run the Vite client only
+npm run dev:client
 ```
 
 ---

@@ -434,12 +434,6 @@ body.mode-light .from-slate-900\/60.to-slate-950\/80 {
   --tw-gradient-to: rgba(var(--accent-rgb), 0.02) !important;
 }
 
-/* Animation speed modifiers */
-body.anim-fast { --anim-speed: 0.5; }
-body.anim-normal { --anim-speed: 1; }
-body.anim-slow { --anim-speed: 1.8; }
-body.anim-none { --anim-speed: 0; }
-
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
@@ -505,6 +499,33 @@ h1, h2, h3, h4, h5, h6 {
 .glass-panel:hover {
   background: var(--bg-card-hover);
   border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Home is intentionally a little less polished than the dashboard: closer to a match notebook. */
+.home-hero {
+  border-radius: 12px;
+  background-image: none;
+}
+
+.home-feature {
+  border-radius: 10px;
+}
+
+.home-editor-note {
+  border-left: 3px solid var(--accent);
+  border-radius: 4px 18px 18px 4px;
+}
+
+body.mode-light .home-hero {
+  background-image: none;
+}
+
+/* Keep movement quiet and functional: one short fade or state change, no loops or staged motion. */
+*, *::before, *::after {
+  animation-duration: 160ms !important;
+  animation-delay: 0ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 150ms !important;
 }
 
 /* Theme-aware accent utilities */

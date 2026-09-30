@@ -1,12 +1,14 @@
-import XLSX from 'xlsx'
+import readXlsxFile from 'read-excel-file/node'
 import { readFileSync } from 'fs'
-import { parseCsv, parseCsvLine } from '../src/utils/csvParser.js'
+import { parseCsv } from '../src/utils/csvParser.js'
 
-const rows = XLSX.utils.sheet_to_json(XLSX.readFile('src/Players.xlsx').Sheets.Sheet1)
+const sheets = await readXlsxFile('src/Players.xlsx')
+const rows = sheets[0]?.data || []
+const [, ...dataRows] = rows
 const csv = parseCsv(readFileSync('src/matches.csv', 'utf8'))
 const poms = [...new Set(csv.map((r) => r.player_of_match).filter(Boolean))]
 
-const names = rows.map((r) => r.Player_Name)
+const names = dataRows.map((r) => r[0])
 let matched = 0
 let unmatched = []
 
@@ -15,7 +17,7 @@ for (const pom of poms.slice(0, 50)) {
   else unmatched.push(pom)
 }
 
-console.log('Players:', rows.length, 'Unique PoM:', poms.length)
+console.log('Players:', dataRows.length, 'Unique PoM:', poms.length)
 console.log('Matched in first 50 PoM:', matched)
 console.log('Unmatched samples:', unmatched.slice(0, 15))
 

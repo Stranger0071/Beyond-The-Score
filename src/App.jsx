@@ -1,3 +1,6 @@
+// Main App Component - Cricket analytics dashboard for IPL and World Cup data
+// Features: Tournament selection, match browsing, detailed scorecards, analytics, and player spotlights
+
 import { useEffect, useMemo, useState } from 'react'
 import {
   getMatches,
@@ -25,58 +28,64 @@ import VenueStats from './components/VenueStats'
 import MatchNarration from './components/MatchNarration'
 import MatchesView from './components/MatchesView'
 
-/* ── Home / Landing View ── */
+/**
+ * HomeView Component - Landing page with feature overview and tournament introduction
+ * Displays:
+ * - Hero section with call-to-action buttons
+ * - 6 feature cards highlighting key functionality
+ * - Tournament dataset cards (IPL and World Cup)
+ * - Data source and credibility note
+ */
 function HomeView({ stats, onNavigate }) {
-  const features = [
-    { icon: '🏏', title: 'Live Scorecards', desc: 'Ball-by-ball breakdowns with detailed batting, bowling, and partnership analysis for every match.', tab: 'section-scorecard' },
-    { icon: '📊', title: 'Deep Analytics', desc: 'Run rates, wagon wheels, fall of wickets, phase analysis, and economy breakdowns across innings.', tab: 'section-analytics' },
-    { icon: '✨', title: 'AI Match Summaries', desc: 'GPT-powered narrative recaps that capture the drama, turning points, and key storylines.', tab: 'section-narration' },
-    { icon: '⚔️', title: 'Head-to-Head', desc: 'Detailed rivalry stats between batters and bowlers — matchups, strike rates, and dismissal patterns.', tab: 'section-h2h' },
-    { icon: '🏟️', title: 'Venue Intelligence', desc: 'Ground-specific stats including pitch behavior, toss advantage, and historical winning patterns.', tab: 'section-venue' },
-    { icon: '⭐', title: 'Player Spotlight', desc: 'Performance profiles, career highlights, and impact analysis for standout performers.', tab: 'section-performers' },
+  // Feature cards shown on landing page - each navigates to a specific section
+  const homeFeatures = [
+    { number: '01', title: 'Scorecards', desc: 'Follow the innings ball by ball, then linger over the partnerships and the wickets that changed it.', tab: 'section-scorecard' },
+    { number: '02', title: 'The numbers behind it', desc: 'Rates, phases, wickets and momentum -- enough detail to test a hunch.', tab: 'section-analytics' },
+    { number: '03', title: 'Match notes', desc: 'A plain-language recap of the turning points, for when the score alone is not the full story.', tab: 'section-narration' },
+    { number: '04', title: 'Old rivalries', desc: 'See how a batter and bowler have actually fared against each other over time.', tab: 'section-h2h' },
+    { number: '05', title: 'Ground truth', desc: 'Look at how the venue has played: chase, defend, toss and everything around them.', tab: 'section-venue' },
+    { number: '06', title: 'Players worth a look', desc: 'A closer view of the people who made the match move.', tab: 'section-performers' },
   ]
 
+  // Tournament metadata for display on landing
   const tournaments = [
-    { icon: '🏏', name: 'Indian Premier League', range: '2008–2025', desc: 'T20 franchise cricket' },
-    { icon: '🏆', name: 'ICC ODI World Cup', range: '1975–2023', desc: '50-over internationals' },
+    { code: 'IPL', name: 'Indian Premier League', range: '2008–2025', desc: 'T20 franchise cricket' },
+    { code: 'ODI', name: 'ICC ODI World Cup', range: '1975–2023', desc: '50-over internationals' },
   ]
 
   return (
-    <div className="mx-auto max-w-5xl space-y-16" style={{ animation: 'bts-fadeUp 0.6s cubic-bezier(0.22,1,0.36,1) both' }}>
+    <div className="home-notes mx-auto max-w-5xl space-y-12">
       {/* Hero Section */}
-      <div className="relative overflow-hidden rounded-[2.5rem] border border-white/[0.06] bg-white/[0.025] p-8 sm:p-12 lg:p-16">
-        {/* Decorative glow */}
-        <div className="pointer-events-none absolute -top-32 -right-32 h-80 w-80 rounded-full blur-[120px]" style={{ backgroundColor: 'var(--accent)', opacity: 0.08 }} />
-        <div className="pointer-events-none absolute -bottom-24 -left-24 h-60 w-60 rounded-full blur-[100px]" style={{ backgroundColor: 'var(--accent)', opacity: 0.05 }} />
+      <div className="home-hero relative border border-white/[0.06] bg-white/[0.025] p-8 sm:p-12 lg:p-16">
 
         <div className="relative">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-1.5">
-            <div className="h-2 w-2 rounded-full animate-pulse" style={{ backgroundColor: 'var(--accent)', boxShadow: '0 0 8px var(--accent-glow)' }} />
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">Cricket Analytics Platform</span>
+            <div className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: 'var(--accent)' }} />
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">A cricket data notebook</span>
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.1] mb-4">
             Beyond The
             <br />
-            <span style={{ color: 'var(--accent)', textShadow: '0 0 40px var(--accent-glow)' }}>Score</span>
+            <span style={{ color: 'var(--accent)' }}>Score</span>
           </h1>
 
           <p className="max-w-2xl text-base sm:text-lg text-slate-400 leading-relaxed mb-8">
-            Dive deeper than the numbers. Explore ball-by-ball analytics, AI-generated match narratives,
-            head-to-head rivalries, and venue intelligence across <strong>{stats.total}+ matches</strong> spanning {stats.yearRange}.
+            The score tells you what happened. The balls, match-ups and little swings in momentum help explain why.
+            Start anywhere in <strong>{stats.total}+ matches</strong> from {stats.yearRange}.
           </p>
 
           <div className="flex flex-wrap gap-3">
             <button
               onClick={() => onNavigate('section-matches')}
-              className="inline-flex items-center gap-2 rounded-2xl px-6 py-3 text-sm font-bold text-[#05070a] transition-all duration-300 hover:scale-[1.03] hover:shadow-xl active:scale-[0.98] cursor-pointer"
-              style={{ background: 'linear-gradient(135deg, var(--accent), var(--accent-hover))', boxShadow: '0 8px 30px rgba(var(--accent-rgb), 0.3)' }}
+              className="inline-flex items-center gap-2 rounded-lg px-5 py-3 text-sm font-bold text-[#05070a] transition-colors cursor-pointer"
+              style={{ backgroundColor: 'var(--accent)' }}
             >
               Explore Matches <span>→</span>
             </button>
             <button
               onClick={() => onNavigate('section-overview')}
-              className="inline-flex items-center gap-2 rounded-2xl border border-white/10 bg-white/[0.04] px-6 py-3 text-sm font-bold text-white transition-all duration-300 hover:bg-white/[0.08] hover:border-white/20 active:scale-[0.98] cursor-pointer"
+              className="inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.04] px-5 py-3 text-sm font-bold text-white transition-colors hover:bg-white/[0.08] cursor-pointer"
             >
               View Overview
             </button>
@@ -87,24 +96,22 @@ function HomeView({ stats, onNavigate }) {
       {/* Features Grid */}
       <div>
         <div className="mb-8 text-left">
-          <p className="text-[10px] font-bold uppercase tracking-[0.25em] mb-2" style={{ color: 'var(--accent)' }}>Features</p>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-white">Everything You Need</h2>
-          <p className="text-sm text-slate-500 mt-1">Comprehensive tools for serious cricket analysis</p>
+          <p className="text-[10px] font-bold uppercase tracking-[0.25em] mb-2" style={{ color: 'var(--accent)' }}>Start with a question</p>
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-white">What are you curious about?</h2>
+          <p className="text-sm text-slate-500 mt-1">There is no right order. Follow the bit of the match that stays with you.</p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {features.map((f, i) => (
+          {homeFeatures.map((f, i) => (
             <button
               key={i}
               onClick={() => onNavigate(f.tab)}
-              className="group relative overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02] p-6 text-left transition-all duration-300 hover:bg-white/[0.05] hover:border-white/[0.12] hover:scale-[1.02] cursor-pointer"
-              style={{ animation: `bts-fadeUp 0.5s cubic-bezier(0.22,1,0.36,1) ${i * 80}ms both` }}
+              className="home-feature group relative border border-white/[0.06] bg-white/[0.02] p-6 text-left transition-colors hover:bg-white/[0.05] hover:border-white/[0.12] cursor-pointer"
             >
-              <div className="pointer-events-none absolute -top-12 -right-12 h-28 w-28 rounded-full blur-[60px] opacity-0 transition-opacity duration-500 group-hover:opacity-100" style={{ backgroundColor: 'var(--accent)' }} />
-              <span className="text-2xl block mb-3">{f.icon}</span>
+              <span className="mb-5 block font-mono text-[11px] tracking-wider" style={{ color: 'var(--accent)' }}>{f.number}</span>
               <h3 className="text-sm font-extrabold text-white mb-1">{f.title}</h3>
               <p className="text-[11px] text-slate-500 leading-relaxed">{f.desc}</p>
-              <div className="mt-3 flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider opacity-0 transition-all duration-300 group-hover:opacity-100" style={{ color: 'var(--accent)' }}>
-                Explore <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
+              <div className="mt-3 flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider" style={{ color: 'var(--accent)' }}>
+                Explore <span>→</span>
               </div>
             </button>
           ))}
@@ -115,12 +122,12 @@ function HomeView({ stats, onNavigate }) {
       <div>
         <div className="mb-6 text-left">
           <p className="text-[10px] font-bold uppercase tracking-[0.25em] mb-2" style={{ color: 'var(--accent)' }}>Datasets</p>
-          <h2 className="text-2xl font-extrabold text-white">Supported Tournaments</h2>
+          <h2 className="text-2xl font-extrabold text-white">The two competitions in this notebook</h2>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
           {tournaments.map((t, i) => (
-            <div key={i} className="flex items-center gap-4 rounded-2xl border border-white/[0.06] bg-white/[0.02] p-5 transition-all duration-300 hover:bg-white/[0.04]">
-              <span className="text-3xl">{t.icon}</span>
+            <div key={i} className="flex items-center gap-4 rounded-lg border border-white/[0.06] bg-white/[0.02] p-5 transition-colors hover:bg-white/[0.04]">
+              <span className="w-9 text-xs font-bold tracking-wide" style={{ color: 'var(--accent)' }}>{t.code}</span>
               <div>
                 <p className="text-sm font-extrabold text-white">{t.name}</p>
                 <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">{t.range} · {t.desc}</p>
@@ -130,31 +137,35 @@ function HomeView({ stats, onNavigate }) {
         </div>
       </div>
 
-      {/* Tech Stack */}
-      <div className="rounded-2xl border border-white/[0.06] bg-white/[0.015] p-6 sm:p-8">
+      {/* A note on the data keeps the landing page grounded in the cricket. */}
+      <div className="home-editor-note border border-white/[0.06] bg-white/[0.015] p-6 sm:p-8">
         <div className="flex items-center gap-3 mb-4">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl text-base" style={{ background: 'rgba(var(--accent-rgb), 0.1)' }}>⚡</div>
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg text-[10px] font-bold" style={{ background: 'rgba(var(--accent-rgb), 0.1)', color: 'var(--accent)' }}>DATA</div>
           <div>
-            <p className="text-sm font-extrabold text-white">Built With Modern Tech</p>
-            <p className="text-[10px] text-slate-500">React + Vite · Tailwind CSS · CSV Data Pipeline</p>
+            <p className="text-sm font-extrabold text-white">A note on the data</p>
+            <p className="text-[10px] text-slate-500">Built from scorecards and ball-by-ball records</p>
           </div>
         </div>
         <p className="text-xs text-slate-400 leading-relaxed">
-          Beyond The Score processes raw CSV data from comprehensive cricket databases, transforming ball-by-ball records
-          into rich, interactive visualizations. All analysis runs client-side — no server needed. AI summaries are
-          generated via the Gemini API for supported matches.
+          This is a place to browse, compare and occasionally disagree with the numbers. The records are detailed, but
+          cricket is not always tidy: a dropped chance, a quiet over or a good match-up may matter more than a single stat.
         </p>
       </div>
     </div>
   )
 }
 
-/* ── Settings View ── */
+/**
+ * SettingsView Component - User preferences and customization panel
+ * Allows users to configure:
+ * - Dark/Light mode toggle
+ * - 7 accent color themes
+ * - Compact mode for denser layouts
+ * - Auto-play animation controls
+ */
 function SettingsView({
   theme,
   onThemeChange,
-  animSpeed,
-  onAnimSpeedChange,
   compactMode,
   onCompactModeChange,
   autoPlay,
@@ -162,6 +173,7 @@ function SettingsView({
   darkMode,
   onDarkModeChange
 }) {
+  // Available color themes with their hex values and descriptions
   const themes = [
     { id: 'emerald', label: 'Emerald Green', color: '#10b981', desc: 'Default' },
     { id: 'sapphire', label: 'Sapphire Blue', color: '#3b82f6', desc: 'Cool' },
@@ -170,13 +182,6 @@ function SettingsView({
     { id: 'amethyst', label: 'Amethyst Purple', color: '#a855f7', desc: 'Royal' },
     { id: 'cyan', label: 'Cyan Teal', color: '#06b6d4', desc: 'Fresh' },
     { id: 'rose', label: 'Rose Pink', color: '#f43f5e', desc: 'Vivid' },
-  ]
-
-  const animOptions = [
-    { id: 'fast', label: 'Fast', desc: '0.5× duration', icon: '⚡' },
-    { id: 'normal', label: 'Normal', desc: '1× duration', icon: '▶️' },
-    { id: 'slow', label: 'Cinematic', desc: '1.8× duration', icon: '🎬' },
-    { id: 'none', label: 'Disabled', desc: 'No animations', icon: '⏹️' },
   ]
 
   return (
@@ -275,32 +280,6 @@ function SettingsView({
           </div>
         </div>
 
-        {/* ── Animation Style ── */}
-        <div className="space-y-4">
-          <div>
-            <label className="text-xs font-bold uppercase tracking-widest text-slate-400">Animation Style</label>
-            <p className="text-[11px] text-slate-600 mt-0.5">Control motion speed throughout the dashboard</p>
-          </div>
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-            {animOptions.map((opt) => (
-              <button
-                key={opt.id}
-                onClick={() => onAnimSpeedChange(opt.id)}
-                className={`flex flex-col items-center justify-center rounded-xl border p-4 text-center transition-all duration-300 cursor-pointer ${
-                  animSpeed === opt.id
-                    ? 'border-white/20 bg-white/[0.06] text-white'
-                    : 'border-white/5 bg-white/[0.02] text-slate-400 hover:bg-white/[0.04] hover:text-slate-200'
-                }`}
-                style={animSpeed === opt.id ? { borderColor: `rgba(var(--accent-rgb), 0.3)`, background: `rgba(var(--accent-rgb), 0.05)` } : undefined}
-              >
-                <span className="text-xl mb-1">{opt.icon}</span>
-                <span className="text-xs font-bold">{opt.label}</span>
-                <span className="text-[10px] text-slate-600 mt-0.5">{opt.desc}</span>
-              </button>
-            ))}
-          </div>
-        </div>
-
         {/* ── Toggle Settings ── */}
         <div className="space-y-4">
           <label className="text-xs font-bold uppercase tracking-widest text-slate-400">Preferences</label>
@@ -308,14 +287,14 @@ function SettingsView({
             <ToggleRow
               label="Compact Mode"
               desc="Reduce spacing and card padding for denser views"
-              icon="📐"
+              icon="CM"
               checked={compactMode}
               onChange={onCompactModeChange}
             />
             <ToggleRow
               label="Auto-Play Counters"
               desc="Automatically animate stat counters when cards scroll into view"
-              icon="🔢"
+              icon="CT"
               checked={autoPlay}
               onChange={onAutoPlayChange}
             />
@@ -340,6 +319,10 @@ function SettingsView({
   )
 }
 
+/**
+ * ToggleRow Component - Reusable toggle switch component for settings
+ * Used for binary preferences like Compact Mode and Auto-Play
+ */
 function ToggleRow({ label, desc, icon, checked, onChange }) {
   return (
     <div className="flex items-center justify-between rounded-xl border border-white/5 bg-white/[0.02] px-4 py-3 transition-all duration-300 hover:bg-white/[0.04]">
@@ -367,8 +350,13 @@ function ToggleRow({ label, desc, icon, checked, onChange }) {
   )
 }
 
-/* ── Tournament Selector View ── */
+/**
+ * TournamentView Component - Tournament selection and switching interface
+ * Allows users to switch between IPL and World Cup datasets
+ * Displays tournament info, match counts, and season ranges
+ */
 function TournamentView({ tournament, onTournamentChange, stats }) {
+  // Tournament definitions with styling, metadata, and descriptions
   const tournaments = [
     {
       id: 'ipl',
@@ -490,7 +478,11 @@ function TournamentView({ tournament, onTournamentChange, stats }) {
   )
 }
 
-/* ── Empty Match Fallback ── */
+/**
+ * EmptyMatchFallback Component - Fallback UI when detailed ball-by-ball data is unavailable
+ * Shows available match information: winner, margin, toss, venue
+ * Used for older World Cup matches with limited historical data
+ */
 function EmptyMatchFallback({ match }) {
   return (
     <div className="rounded-[2.5rem] border border-white/[0.06] bg-gradient-to-b from-slate-900/60 to-slate-950/80 p-8 sm:p-10 shadow-2xl backdrop-blur-xl text-center"
@@ -543,7 +535,23 @@ function EmptyMatchFallback({ match }) {
   )
 }
 
+/**
+ * Main App Component - Root container managing all application state and views
+ * State Management:
+ * - tournament: Current tournament (IPL or World Cup)
+ * - darkMode, theme, compactMode, autoPlay: User preferences
+ * - season: Selected season filter
+ * - matchId: Currently viewed match
+ * - match: Full match data (loaded asynchronously)
+ * - activeTab: Current view section
+ * 
+ * Renders:
+ * - Navigation sidebar
+ * - Header with match/season selectors
+ * - Various view components based on activeTab
+ */
 function App() {
+  // ── State: User Preferences ──
   const [tournament, setTournamentState] = useState(() => getTournament())
   const [darkMode, setDarkMode] = useState(() => {
     if (typeof localStorage !== 'undefined') {
@@ -557,12 +565,6 @@ function App() {
       return localStorage.getItem('bts_theme') || 'emerald'
     }
     return 'emerald'
-  })
-  const [animSpeed, setAnimSpeed] = useState(() => {
-    if (typeof localStorage !== 'undefined') {
-      return localStorage.getItem('bts_anim_speed') || 'normal'
-    }
-    return 'normal'
   })
   const [compactMode, setCompactMode] = useState(() => {
     if (typeof localStorage !== 'undefined') {
@@ -578,22 +580,34 @@ function App() {
     return true
   })
 
+  // ── State: Data Selection ──
   const [season, setSeason] = useState('all')
   const filtered = useMemo(() => getMatches(season), [season, tournament])
+  // Currently selected match ID from filtered list
   const [matchId, setMatchId] = useState(filtered[0]?.id)
+  // Full match data loaded asynchronously
   const [match, setMatch] = useState(null)
+  // Loading state for async match data fetch
   const [loading, setLoading] = useState(true)
+  // Dataset statistics (total matches, seasons, toss win %)
   const [stats, setStats] = useState(() => getDatasetStats())
+  // ── State: Navigation ──
+  // Currently active view section (home, scorecard, analytics, etc.)
   const [activeTab, setActiveTab] = useState('section-home')
 
+  // ── Derived State ──
+  // Available seasons for current tournament
   const seasonsList = useMemo(() => [...seasons], [tournament])
 
+  // Current match metadata from filtered list (summary info)
   const indexEntry = filtered.find((m) => m.id === matchId) ?? filtered[0]
 
-  // Check if match has detailed ball-by-ball data
+  // Determines if analytics and advanced views should be available
+  // Some older matches lack detailed ball-by-ball data
   const hasDetailedData = match && match.innings && match.innings.length > 0 && match.innings.some(inn => inn.balls > 0)
 
-  // Apply light/dark mode body class
+  // ── Effects: Persist and Apply User Settings ──
+  // Sync dark mode preference to DOM and localStorage
   useEffect(() => {
     if (darkMode) {
       document.body.classList.remove('mode-light')
@@ -605,8 +619,9 @@ function App() {
     }
   }, [darkMode])
 
+  // Sync color theme to DOM and localStorage
   useEffect(() => {
-    // Apply theme body class
+    // Remove previous theme class
     document.body.classList.forEach((cls) => {
       if (cls.startsWith('theme-')) {
         document.body.classList.remove(cls)
@@ -617,19 +632,6 @@ function App() {
       localStorage.setItem('bts_theme', theme)
     }
   }, [theme])
-
-  // Apply animation speed
-  useEffect(() => {
-    document.body.classList.forEach((cls) => {
-      if (cls.startsWith('anim-')) {
-        document.body.classList.remove(cls)
-      }
-    })
-    document.body.classList.add(`anim-${animSpeed}`)
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem('bts_anim_speed', animSpeed)
-    }
-  }, [animSpeed])
 
   // Persist compact mode
   useEffect(() => {
@@ -645,10 +647,13 @@ function App() {
     }
   }, [autoPlay])
 
+  // Enrich dataset statistics with additional computed data when tournament changes
   useEffect(() => {
     enrichDatasetStats().then((extra) => setStats((s) => ({ ...s, ...extra })))
   }, [tournament])
 
+  // ── Effects: Data Fetching ──
+  // Load full match data when selected match changes
   useEffect(() => {
     if (!indexEntry) {
       setMatch(null)
@@ -661,14 +666,18 @@ function App() {
       .finally(() => setLoading(false))
   }, [indexEntry?.id, indexEntry?.year, tournament])
 
+  // Extract player lineup from current match (memoized to prevent recalculations)
   const squad = useMemo(() => (match ? getMatchPlayers(match) : null), [match])
 
+  // ── Event Handlers ──
+  // Update filtered matches when season selection changes
   const handleSeasonChange = (value) => {
     setSeason(value)
     const next = getMatches(value)
     if (next.length) setMatchId(next[0].id)
   }
 
+  // Switch between IPL and World Cup tournaments, reset filters
   const handleTournamentChange = (type) => {
     switchTournament(type)
     setTournamentState(type)
@@ -680,7 +689,7 @@ function App() {
     setStats(getDatasetStats())
   }
 
-  // Update browser page title dynamically
+  // Update browser tab title based on current tournament
   useEffect(() => {
     const titleText = tournament === 'ipl' ? 'Beyond The Score · IPL Insights' : 'Beyond The Score · World Cup Insights'
     document.title = titleText
@@ -694,17 +703,24 @@ function App() {
     )
   }
 
-  // Tabs that need detailed ball-by-ball data
+  // ── Render Logic ──
+  // Tabs that require detailed ball-by-ball data to function
   const detailTabs = ['section-analytics', 'section-performers', 'section-squad', 'section-h2h', 'section-venue']
+  // Show fallback UI if user tries to view a detail tab without data
   const needsDetailAndMissing = !hasDetailedData && detailTabs.includes(activeTab) && !loading && match
 
+  // Hide header on special views (settings, tournament picker, home)
   const hideHeader = activeTab === 'section-settings' || activeTab === 'section-tournament' || activeTab === 'section-home'
 
   return (
+    // Main layout: sidebar navigation + main content area
     <div className="flex min-h-screen bg-[#05070a] text-white">
+      {/* Navigation sidebar */}
       <NavBar activeTab={activeTab} onTabChange={setActiveTab} />
+      {/* Main content area */}
       <div className="bts-main-content flex-1 min-w-0 px-4 pb-10 pt-6 sm:px-6 lg:pt-8">
         <div className="mx-auto max-w-6xl space-y-12">
+          {/* Header with match/season selector (hidden on certain views) */}
           {!hideHeader && (
             <Header
               tournament={tournament}
@@ -719,11 +735,14 @@ function App() {
               onTabChange={setActiveTab}
             />
           )}
+          {/* View: Landing/Home */}
           {activeTab === 'section-home' && (
             <HomeView stats={stats} onNavigate={setActiveTab} />
           )}
+          {/* View: Dataset Overview Statistics */}
           {activeTab === 'section-overview' && <DatasetStats stats={stats} />}
 
+          {/* View: Tournament Selector */}
           {activeTab === 'section-tournament' && (
             <div className="min-h-[400px]">
               <TournamentView
@@ -734,6 +753,7 @@ function App() {
             </div>
           )}
 
+          {/* View: Matches List/Browse */}
           {activeTab === 'section-matches' && (
             <div className="min-h-[400px]">
               <MatchesView
@@ -745,34 +765,44 @@ function App() {
             </div>
           )}
 
+          {/* Loading indicator for async match data */}
           {loading && activeTab !== 'section-settings' && activeTab !== 'section-tournament' && activeTab !== 'section-home' && (
             <p className="rounded-xl border border-white/10 bg-white/5 py-12 text-center text-slate-400">
               Loading ball-by-ball data…
             </p>
           )}
 
+          {/* Views: Match Detail Sections (scorecard, analytics, player stats, etc.) */}
           {!loading && match && !['section-home', 'section-overview', 'section-tournament', 'section-matches', 'section-settings'].includes(activeTab) && (
             <div className="min-h-[400px]">
+              {/* Show fallback UI if required data is missing */}
               {needsDetailAndMissing && <EmptyMatchFallback match={match} />}
+              {/* Match Summary & Detailed Play-by-Play */}
               {activeTab === 'section-narration' && (hasDetailedData ? <MatchNarration match={match} /> : <EmptyMatchFallback match={match} />)}
               {activeTab === 'section-scorecard' && <MatchScorecard match={match} />}
+              {/* Analytics Views - Rates, Phases, Momentum */}
               {activeTab === 'section-analytics' && hasDetailedData && <MatchAnalytics match={match} />}
+              {/* Player Performance Highlights */}
               {activeTab === 'section-performers' && hasDetailedData && <PlayerSpotlight playerOfMatch={squad?.playerOfMatch} />}
+              {/* Match Squad & Player Lineups */}
               {activeTab === 'section-squad' && hasDetailedData && <MatchSquad squad={squad} match={match} />}
+              {/* Head-to-Head Batter vs Bowler Stats */}
               {activeTab === 'section-h2h' && hasDetailedData && <HeadToHead match={match} />}
+              {/* Venue/Ground Statistics & Trends */}
               {activeTab === 'section-venue' && hasDetailedData && <VenueStats match={match} />}
+              {/* Key Match Moments & Turning Points */}
               {activeTab === 'section-insights' && <InsightCards insights={match.insights} />}
               {activeTab === 'section-timeline' && <KeyMoments moments={match.keyMoments} />}
+              {/* Glossary: Cricket Terms & Definitions */}
               {activeTab === 'section-glossary' && <Glossary terms={glossary} />}
             </div>
           )}
 
+          {/* View: User Settings & Preferences */}
           {activeTab === 'section-settings' && (
             <SettingsView
               theme={theme}
               onThemeChange={setTheme}
-              animSpeed={animSpeed}
-              onAnimSpeedChange={setAnimSpeed}
               compactMode={compactMode}
               onCompactModeChange={setCompactMode}
               autoPlay={autoPlay}

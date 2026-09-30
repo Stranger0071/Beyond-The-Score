@@ -5,17 +5,28 @@
   "type": "module",
   "scripts": {
     "data:sync": "node scripts/build-players-json.mjs && node scripts/build-ipl-matches.mjs && node scripts/build-wc-matches.mjs",
-    "dev": "npm run data:sync && vite",
+    "server": "node server/index.js",
+    "dev:client": "npm run data:sync && vite",
+    "dev": "concurrently -k -n \"server,client\" -c \"blue,green\" \"node server/index.js\" \"npm run dev:client\"",
     "build": "npm run data:sync && vite build",
+    "start": "node server/index.js",
     "lint": "eslint .",
+    "test": "node server/narrate.test.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
     "@google/genai": "^2.3.0",
     "@tailwindcss/vite": "^4.3.0",
+    "cors": "^2.8.6",
+    "dompurify": "^3.4.16",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "lucide-react": "^1.25.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
-    "xlsx": "^0.18.5"
+    "read-excel-file": "^9.3.10"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -23,6 +34,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "autoprefixer": "^10.5.0",
+    "concurrently": "^10.0.5",
     "eslint": "^10.3.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
