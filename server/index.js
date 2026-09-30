@@ -19,29 +19,7 @@ const rootDir = path.resolve(__dirname, '..')
 const app = express()
 const PORT = process.env.PORT || 3001
 
-// ── Security Headers via Helmet (OWASP A05: Security Misconfiguration) ──────────
-app.use(
-  helmet({
-    contentSecurityPolicy: {
-      directives: {
-        defaultSrc: ["'self'"],
-        scriptSrc: ["'self'", "'unsafe-inline'"],
-        styleSrc: ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
-        fontSrc: ["'self'", 'https://fonts.gstatic.com', 'data:'],
-        imgSrc: ["'self'", 'data:', 'https:'],
-        connectSrc: ["'self'", 'http://localhost:*', 'ws://localhost:*'],
-        frameAncestors: ["'none'"],
-        baseUri: ["'self'"],
-        formAction: ["'self'"],
-        upgradeInsecureRequests: [],
-      },
-    },
-    crossOriginEmbedderPolicy: false,
-    referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
-  })
-)
-
-// ── CORS Configuration ────────────────────────────────────────────────────────
+// ── CORS Configuration (MUST BE FIRST MIDDLEWARE FOR CROSS-ORIGIN APIS) ────────
 const allowedOrigins = [
   'http://localhost:5173',
   'http://127.0.0.1:5173',
@@ -53,7 +31,7 @@ const allowedOrigins = [
 app.use(
   cors({
     origin: (origin, callback) => {
-      // Allow requests with no origin, local dev, Vercel deployments, or allowedOrigins list
+      // Allow requests with no origin, local dev, Vercel deployments, or custom origins
       if (
         !origin ||
         allowedOrigins.includes(origin) ||
@@ -62,11 +40,24 @@ app.use(
       ) {
         return callback(null, true)
       }
-      // Always allow valid CORS origins (secured via server-side rate-limiting and prompt sanitization)
       return callback(null, true)
     },
     methods: ['GET', 'POST', 'OPTIONS'],
-    allowedHeaders: ['Content-Type'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+  })
+)
+
+// Handle preflight OPTIONS requests explicitly across all routes
+app.options('*', cors())
+
+// ── Security Headers via Helmet (OWASP A05: Security Misconfiguration) ──────────
+app.use(
+  helmet({
+    contentSecurityPolicy: false, // CSP managed by frontend / Vercel
+    crossOriginResourcePolicy: { policy: 'cross-origin' },
+    crossOriginEmbedderPolicy: false,
+    referrerPolicy: { policy: 'strict-origin-when-cross-origin' },
   })
 )
 
