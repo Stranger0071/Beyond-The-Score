@@ -48,9 +48,6 @@ app.use(
   })
 )
 
-// Handle preflight OPTIONS requests explicitly across all routes
-app.options('*', cors())
-
 // ── Security Headers via Helmet (OWASP A05: Security Misconfiguration) ──────────
 app.use(
   helmet({
