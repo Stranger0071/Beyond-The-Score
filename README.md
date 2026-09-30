@@ -1,10 +1,5 @@
 # Beyond The Score — Cricket Analytics Dashboard
 
-[![React](https://img.shields.io/badge/React-19-blue.svg?style=for-the-badge&logo=react)](https://react.dev)
-[![Vite](https://img.shields.io/badge/Vite-8-purple.svg?style=for-the-badge&logo=vite)](https://vite.dev)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC.svg?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
 A modern, high-performance **Cricket Analytics & Match Intelligence Dashboard**. *Beyond The Score* processes ball-by-ball datasets from major tournaments (IPL & ICC Men's Cricket World Cups) to deliver real-time data visualisations, phase analytics, and contextual AI-assisted match summaries.
 
 ---
@@ -35,10 +30,10 @@ Detailed individual player statistics, playing XI rosters, and official match sc
 
 ## Architecture & Tech Stack
 
-- **Frontend Core:** [React 19](https://react.dev) & [Vite 8](https://vite.dev)
-- **Backend Proxy:** [Node.js](https://nodejs.org) + [Express](https://expressjs.com) with [Helmet](https://helmetjs.github.io) (CSP & security headers) and [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
-- **Styling:** [Tailwind CSS 4.0](https://tailwindcss.com) with custom dark mode variables and responsive layouts
-- **Data Engine:** ES Module pipeline (`.mjs`) leveraging [read-excel-file](https://github.com/catamphetamine/read-excel-file)
+- **Frontend Core:** React 19 & Vite 8
+- **Backend Proxy:** Node.js + Express with Helmet (CSP & security headers) and express-rate-limit
+- **Styling:** Tailwind CSS 4.0 with custom dark mode variables and responsive layouts
+- **Data Engine:** ES Module pipeline (.mjs) leveraging read-excel-file
 - **AI Integration:** Google Gemini API integrated behind a secure backend proxy with prompt injection sanitization and DOMPurify text escaping
 
 ---
@@ -139,4 +134,4 @@ npm test
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+Distributed under the MIT License.
