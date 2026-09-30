@@ -47,13 +47,14 @@ const allowedOrigins = [
   'http://127.0.0.1:5173',
   `http://localhost:${PORT}`,
   `http://127.0.0.1:${PORT}`,
+  ...(process.env.CLIENT_ORIGIN ? [process.env.CLIENT_ORIGIN] : []),
 ]
 
 app.use(
   cors({
     origin: (origin, callback) => {
-      // Allow requests with no origin (e.g., mobile apps, curl, same-origin)
-      if (!origin || allowedOrigins.includes(origin)) {
+      // Allow requests with no origin (e.g., mobile apps, curl, same-origin) or Vercel frontend domains
+      if (!origin || allowedOrigins.includes(origin) || origin.endsWith('.vercel.app')) {
         return callback(null, true)
       }
       callback(new Error('Cross-Origin Request Blocked by CORS policy'))

@@ -34,7 +34,8 @@ export default function MatchNarration({ match }) {
     setError('')
     try {
       const isComp = type === 'comprehensive'
-      const response = await fetch('/api/narrate', {
+      const apiBase = import.meta.env.VITE_API_URL || ''
+      const response = await fetch(`${apiBase}/api/narrate`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
