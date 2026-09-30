@@ -17,29 +17,25 @@ export function formatErrorMessage(err, fallback = 'An unexpected error occurred
 
   const rawMessage = typeof err === 'string' ? err : err.message || String(err)
 
+  /* Custom error formatting commented out to display raw errors as-is */
+  /*
   // Rate limit / Quota exceeded
   if (/quota|exhausted|429|rate limit|too many requests/i.test(rawMessage)) {
     return 'Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.'
   }
 
-  // Raw JSON parse or HTML response errors (e.g., Unexpected token 'T', "The page c"... is not valid JSON)
-  if (
-    /unexpected token|is not valid json|syntaxerror|<!doctype|<html|the page/i.test(rawMessage)
-  ) {
+  // Raw JSON parse or HTML response errors
+  if (/unexpected token|is not valid json|syntaxerror|<!doctype|<html|the page/i.test(rawMessage)) {
     return 'Unable to reach the narration server. Please check your backend URL configuration on Vercel.'
   }
 
   // Network / Connection errors
   if (/failed to fetch|networkerror|load failed|fetch failed|econnrefused/i.test(rawMessage)) {
-    return 'Network connection issue. Unable to connect to the narration server. Please ensure your backend is online and BACKEND_API_URL uses https://.'
+    return 'Network connection issue. Unable to connect to the narration server.'
   }
+  */
 
-  // Return the error message if it's already a clean user-facing string, otherwise use fallback
-  if (rawMessage && !/TypeError|ReferenceError|EvalError|InternalError/i.test(rawMessage)) {
-    return rawMessage
-  }
-
-  return fallback
+  return rawMessage || fallback
 }
 
 /**

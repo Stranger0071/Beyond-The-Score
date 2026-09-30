@@ -65,7 +65,7 @@ export default function MatchNarration({ match }) {
         }),
       })
 
-      const { ok, status, data } = await safeFetchJson(response)
+      const { ok, status, data, rawText: responseRawText } = await safeFetchJson(response)
 
       if (status === 429) {
         const retryAfter = data?.retryAfter || 60
@@ -76,9 +76,8 @@ export default function MatchNarration({ match }) {
       }
 
       if (!ok) {
-        const msg = data?.error || (status >= 500
-          ? 'Narration service is temporarily unavailable. Please try again later.'
-          : 'Failed to generate match narration.')
+        const targetUrl = `${apiBase}/api/narrate`
+        const msg = data?.error || responseRawText || `HTTP ${status} returned from ${targetUrl}`
         throw new Error(msg)
       }
 
