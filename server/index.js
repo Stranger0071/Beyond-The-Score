@@ -19,6 +19,9 @@ const rootDir = path.resolve(__dirname, '..')
 const app = express()
 const PORT = process.env.PORT || 3001
 
+// Enable trust proxy for Render / Vercel reverse proxies (OWASP / express-rate-limit)
+app.set('trust proxy', 1)
+
 // ── CORS Configuration (MUST BE FIRST MIDDLEWARE FOR CROSS-ORIGIN APIS) ────────
 const allowedOrigins = [
   'http://localhost:5173',
