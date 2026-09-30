@@ -34,7 +34,15 @@ export default function MatchNarration({ match }) {
     setError('')
     try {
       const isComp = type === 'comprehensive'
-      const apiBase = import.meta.env.BACKEND_API_URL || ''
+      // Vite requires VITE_ prefix to expose environment variables to client-side code
+      const rawApiBase =
+        import.meta.env.VITE_BACKEND_API_URL ||
+        import.meta.env.VITE_API_URL ||
+        import.meta.env.VITE_SERVER_URL ||
+        import.meta.env.VITE_BACKEND_URL ||
+        import.meta.env.BACKEND_API_URL ||
+        ''
+      const apiBase = rawApiBase.replace(/\/+$/, '')
       const response = await fetch(`${apiBase}/api/narrate`, {
         method: 'POST',
         headers: {
