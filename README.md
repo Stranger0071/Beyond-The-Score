@@ -1,93 +1,87 @@
-# 🏏 Beyond The Score — Cricket Analytics Dashboard
+# Beyond The Score — Cricket Analytics Dashboard
 
 [![React](https://img.shields.io/badge/React-19-blue.svg?style=for-the-badge&logo=react)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-8-purple.svg?style=for-the-badge&logo=vite)](https://vite.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC.svg?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-An immersive, premium-grade **Cricket Analytics & Match Intelligence Dashboard**. *Beyond The Score* takes raw ball-by-ball datasets from legendary tournaments (IPL & ICC Men's Cricket World Cups) and breathes life into them with sub-millisecond data processing, elegant glassmorphic visuals, deep charts, and contextual narratives.
+A modern, high-performance **Cricket Analytics & Match Intelligence Dashboard**. *Beyond The Score* processes ball-by-ball datasets from major tournaments (IPL & ICC Men's Cricket World Cups) to deliver real-time data visualisations, phase analytics, and contextual AI-assisted match summaries.
 
 ---
 
-## ✨ Features That Stand Out
+## Key Features
 
-*Beyond The Score* is designed to give fans, analysts, and developers a state-of-the-art overview of cricket matches:
+*Beyond The Score* provides a comprehensive analytical platform for cricket matches and tournaments:
 
-### 📈 Deep Match Analytics
-Visualize the ebb and flow of every match through interactive statistics. Discover patterns in partnership contributions, over-by-over scoring progressions, phase-specific run rates, and individual bowler impact.
+### Deep Match Analytics
+Visualize match progressions through interactive charts, partnership dynamics, over-by-over scoring trends, phase-specific run rates, and bowler impact metrics.
 
-### 🏟️ Venue & Pitch Insights
-Analyze venues like a professional tactician. Evaluate toss decisions (batting vs. chasing advantages), historical stadium averages, pitch biases, and overall win-loss trends under different conditions.
+### Venue & Pitch Insights
+Evaluate stadium characteristics including toss decisions (batting vs. chasing win ratios), venue scoring averages, pitch conditions, and historical match outcomes.
 
-### 👥 Head-to-Head Comparisons
-Side-by-side comparative analysis between rival franchises/nations. Discover historical dominance, scoring averages, and matchup trends across seasons.
+### Head-to-Head Comparisons
+Side-by-side comparative analysis between competing teams, detailing historical head-to-head records, scoring distributions, and seasonal matchup trends.
 
-### ⚡ Sub-Millisecond Sync & Ingestion Pipeline
-A robust NodeJS pre-compilation script processes raw, complex cricket CSVs (deliveries, over-by-over histories, player rosters, match venues) into lean, optimized JSON files, enabling lightning-fast, zero-lag rendering.
+### Data Ingestion Pipeline
+Node.js pre-compilation tools ingest raw cricket CSV datasets (deliveries, rosters, venues, over logs) and generate optimized JSON models for zero-latency client rendering.
 
-### 🎭 AI-Driven Narration & Key Moments
-Go beyond cold hard numbers. Relive the narrative of the match with curated **Insight Cards** and an interactive chronological **Key Moments Timeline** highlighting milestone runs, critical wickets, and turning points.
+### AI-Driven Match Summaries & Key Moments
+Automated match intelligence featuring contextual narrative cards, critical turning points, milestone tracking, and bowler/batter performance highlights.
 
-### 🎯 Player Spotlight & Scorecard
-Examine detailed performance stats of the match-winners, check official squads and playing XIs, and explore comprehensive, fully-detailed match scorecards.
-
----
-
-## 🛠️ Tech Stack & Core Libraries
-
-- **Frontend Core:** [React 19](https://react.dev) & [Vite 8](https://vite.dev) (for hot module replacement and high-speed development)
-- **Backend & Proxy:** [Node.js](https://nodejs.org) + [Express](https://expressjs.com) with [Helmet](https://helmetjs.github.io) (CSP & security headers) and [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
-- **Styling:** [Tailwind CSS 4.0](https://tailwindcss.com) (with custom fluid variables, modern glassmorphism, and dark-themed components)
-- **Data Engine:** Customized NodeJS ES modules (`.mjs`) & [read-excel-file](https://github.com/catamphetamine/read-excel-file) for secure, vulnerability-free pre-processing
-- **AI Integration:** Google Gemini API behind an input-validated, rate-limited backend security proxy with DOMPurify sanitization
+### Player Spotlight & Detailed Scorecards
+Detailed individual player statistics, playing XI rosters, and official match scorecards.
 
 ---
 
-## 📁 Repository Structure
+## Architecture & Tech Stack
 
-```filepath
+- **Frontend Core:** [React 19](https://react.dev) & [Vite 8](https://vite.dev)
+- **Backend Proxy:** [Node.js](https://nodejs.org) + [Express](https://expressjs.com) with [Helmet](https://helmetjs.github.io) (CSP & security headers) and [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit)
+- **Styling:** [Tailwind CSS 4.0](https://tailwindcss.com) with custom dark mode variables and responsive layouts
+- **Data Engine:** ES Module pipeline (`.mjs`) leveraging [read-excel-file](https://github.com/catamphetamine/read-excel-file)
+- **AI Integration:** Google Gemini API integrated behind a secure backend proxy with prompt injection sanitization and DOMPurify text escaping
+
+---
+
+## Security Architecture
+
+The backend Express proxy (`server/index.js`) secures external AI services and client interactions:
+- **Input Sanitization**: Filters known prompt injection patterns, role markers (`SYSTEM:`, `[INST]`), code fence escapes, and template slot injections.
+- **Data Delimitation**: Encloses raw match payload data in strict sentinel blocks (`--- MATCH DATA BEGIN ---`) accompanied by explicit raw-data treatment system rules.
+- **HTTP Hardening**: Configured with Helmet security middleware and IP-based rate limiting.
+
+---
+
+## Repository Structure
+
+```
 Beyond The Score/
-├── beyondthescore/             # Primary Application
-│   ├── public/                 # Static Assets
-│   ├── scripts/                # Data pre-compilation pipeline scripts
-│   │   ├── build-ipl-matches.mjs
-│   │   ├── build-players-json.mjs
-│   │   └── build-wc-matches.mjs
-│   ├── server/                 # Express Security Proxy (Helmet, Rate Limiting, Gemini API)
-│   │   └── index.js
-│   ├── src/
-│   │   ├── components/         # UI Components (Scorecard, MatchNarration, VenueStats, etc.)
-│   │   ├── data/               # Ingested datasets (CSV, JSON) and loaders
-│   │   ├── utils/              # Data parsing, animations, filters, and helper methods
-│   │   ├── App.jsx             # Root Layout and View Swapping State
-│   │   ├── main.jsx            # Entry point
-│   │   └── index.css           # Custom Tailwind and Core CSS Variables
-│   ├── .env.example            # Environment variables template
-│   ├── package.json
-│   └── vite.config.js
-├── .gitignore                  # Global git ignores (.env files excluded)
-└── README.md                   # You are here!
-```
-
-### 4. Security & Prompt Hardening Architecture
-The backend proxy (`server/index.js`) protects the Gemini API endpoint:
-- **Input Sanitization**: Strips prompt injection phrases (e.g., `Ignore previous instructions`, `SYSTEM:`, `[INST]`), delimiting sequences (`---`, `===`), control characters, and template tags.
-- **Strict Data Delimitation**: Wraps match statistics inside explicit `--- MATCH DATA BEGIN ---` sentinels with system instructions enforcing strict raw data treatment.
-- **Security Headers & Rate Limiting**: Uses Helmet security headers and HTTP rate limiting to safeguard against abuse.
-
-### 5. Run Tests
-Execute the security proxy and prompt sanitizer test suite (45 automated assertions):
-```bash
-npm test
+└── beyondthescore/             # Primary Application Root
+    ├── public/                 # Static Assets
+    ├── scripts/                # Data ingestion & build scripts
+    │   ├── build-ipl-matches.mjs
+    │   ├── build-players-json.mjs
+    │   └── build-wc-matches.mjs
+    ├── server/                 # Express backend proxy & security tests
+    │   ├── index.js
+    │   └── narrate.test.mjs
+    ├── src/
+    │   ├── components/         # React UI Components
+    │   ├── data/               # Ingested datasets and data loaders
+    │   ├── utils/              # Data parsers and utility functions
+    │   ├── App.jsx             # Main Application Entry
+    │   ├── main.jsx            # React root mount
+    │   └── index.css           # Core styles and design system
+    ├── .env.example            # Environment setup template
+    ├── package.json
+    └── vite.config.js
 ```
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
-Ready to explore *Beyond The Score*? Set it up locally in minutes:
-
-### 1. Clone the repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Stranger0071/Beyond-The-Score.git
 cd "Beyond The Score/beyondthescore"
@@ -98,64 +92,51 @@ cd "Beyond The Score/beyondthescore"
 npm install
 ```
 
-### 3. Configure Environment Variables
-Copy `.env.example` to `.env.local` and add your Google AI Studio Gemini API key:
+### 3. Configure Environment
+Copy `.env.example` to `.env.local` and specify your Gemini API credentials:
 ```bash
 cp .env.example .env.local
 ```
-Edit `.env.local`:
+
+Set the variables in `.env.local`:
 ```env
 PORT=3001
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
-> **Security Note:** Never prefix server-side keys with `VITE_`. All Gemini calls route through the Express proxy to keep keys private and client bundles secure.
 
-### 4. Run the App
+### 4. Run Development Server
+Start both the Express backend proxy (port 3001) and Vite dev server concurrently:
 ```bash
-# Concurrently starts the backend security proxy (port 3001) and Vite dev server
 npm run dev
 ```
 
-Alternatively, to run individual processes:
+### 5. Individual Run Commands
 ```bash
-# Run tests
+# Execute automated security proxy unit tests (45 tests)
 npm test
 
-# Run data preprocessing pipeline only
+# Run data pre-compilation sync scripts
 npm run data:sync
 
-# Run the Express proxy server only
+# Run Express server only
 npm run server
 
-# Run the Vite client only
+# Run Vite client only
 npm run dev:client
 ```
 
 ---
 
-## 🎨 UI & Design Principles
+## Testing
 
-*Beyond The Score* is styled with an ultra-modern, dark-themed sport-intelligence aesthetic:
-- **Palette:** Rich deep obsidian (`#05070a`), neon cyan highlights, electric emeralds, and subtle gold accents for VIP-level sports feel.
-- **Glassmorphism:** Elegant frosted borders (`backdrop-blur-md border-white/10`) to separate sections without cluttering the screen.
-- **Responsiveness:** Fluid grid layouts optimized for mobile, tablet, and ultra-wide monitor views.
+The project includes an automated test suite verifying prompt sanitization, boundary checks, and system instruction rules:
 
----
-
-## 🤝 Contributing
-
-Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+```bash
+npm test
+```
 
 ---
 
-## 📄 License
+## License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
-
-*Crafted with 🏏 by cricket enthusiasts, for cricket enthusiasts.*
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
