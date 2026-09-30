@@ -69,6 +69,18 @@ Beyond The Score/
 └── README.md                   # You are here!
 ```
 
+### 4. Security & Prompt Hardening Architecture
+The backend proxy (`server/index.js`) protects the Gemini API endpoint:
+- **Input Sanitization**: Strips prompt injection phrases (e.g., `Ignore previous instructions`, `SYSTEM:`, `[INST]`), delimiting sequences (`---`, `===`), control characters, and template tags.
+- **Strict Data Delimitation**: Wraps match statistics inside explicit `--- MATCH DATA BEGIN ---` sentinels with system instructions enforcing strict raw data treatment.
+- **Security Headers & Rate Limiting**: Uses Helmet security headers and HTTP rate limiting to safeguard against abuse.
+
+### 5. Run Tests
+Execute the security proxy and prompt sanitizer test suite (45 automated assertions):
+```bash
+npm test
+```
+
 ---
 
 ## 🚀 Quick Start Guide
@@ -77,7 +89,7 @@ Ready to explore *Beyond The Score*? Set it up locally in minutes:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Stranger0071/Beyonf-The-Score.git
+git clone https://github.com/Stranger0071/Beyond-The-Score.git
 cd "Beyond The Score/beyondthescore"
 ```
 
@@ -106,6 +118,9 @@ npm run dev
 
 Alternatively, to run individual processes:
 ```bash
+# Run tests
+npm test
+
 # Run data preprocessing pipeline only
 npm run data:sync
 
