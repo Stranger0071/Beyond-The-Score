@@ -26,12 +26,12 @@ export function formatErrorMessage(err, fallback = 'An unexpected error occurred
   if (
     /unexpected token|is not valid json|syntaxerror|<!doctype|<html|the page/i.test(rawMessage)
   ) {
-    return 'Narration backend server is offline or unreachable. Please ensure the server is running (start with `npm run dev` or `npm run server`).'
+    return 'Unable to reach the narration server. Please check your backend URL configuration on Vercel.'
   }
 
   // Network / Connection errors
   if (/failed to fetch|networkerror|load failed|fetch failed|econnrefused/i.test(rawMessage)) {
-    return 'Network connection issue. Unable to connect to the narration server (ensure `npm run dev` is running).'
+    return 'Network connection issue. Unable to connect to the narration server. Please ensure your backend is online and BACKEND_API_URL uses https://.'
   }
 
   // Return the error message if it's already a clean user-facing string, otherwise use fallback
