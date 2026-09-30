@@ -341,7 +341,20 @@ app.post('/api/narrate', apiLimiter, async (req, res) => {
       })
     }
 
-    const data = await response.json()
+    const rawResponseBody = await response.text().catch(() => '')
+    let data = null
+    try {
+      data = rawResponseBody ? JSON.parse(rawResponseBody) : null
+    } catch (_parseErr) {
+      console.error('Gemini upstream returned non-JSON response status:', response.status)
+      return res.status(502).json({
+        error: 'Upstream AI model returned an unexpected response format.',
+      })
+    }
+
+    if (!data) {
+      return res.status(502).json({ error: 'Upstream AI model returned an empty response.' })
+    }
 
     if (
       data.error?.code === 429 ||
@@ -374,7 +387,7 @@ app.post('/api/narrate', apiLimiter, async (req, res) => {
       return res.status(504).json({ error: 'Upstream Gemini request timed out.' })
     }
     console.error('Narration proxy error:', err.message)
-    return res.status(500).json({ error: 'An error occurred while generating the match narration.' })
+    return res.status(500).json({ error: 'An internal error occurred while generating the match narration.' })
   }
 })
 
@@ -395,7 +408,7 @@ app.use((err, req, res, _next) => {
     return res.status(413).json({ error: 'Payload too large. Maximum allowed request size is 15KB.' })
   }
   console.error('Unhandled server error:', err.message || err)
-  res.status(err.status || 500).json({ error: 'Internal server error' })
+  res.status(err.status || 500).json({ error: 'An internal server error occurred.' })
 })
 
 app.listen(PORT, () => {

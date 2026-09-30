@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import DOMPurify from 'dompurify'
 import { injectGlobalKeyframes, useInView, staggerStyle } from '../utils/animations'
+import { formatErrorMessage, safeFetchJson } from '../utils/errorUtils'
 
 export default function MatchNarration({ match }) {
   const [reportType, setReportType] = useState('normal')
@@ -54,21 +55,24 @@ export default function MatchNarration({ match }) {
         }),
       })
 
-      if (response.status === 429) {
-        const data = await response.json().catch(() => ({}))
-        setCountdown(data.retryAfter || 60)
+      const { ok, status, data } = await safeFetchJson(response)
+
+      if (status === 429) {
+        const retryAfter = data?.retryAfter || 60
+        setCountdown(retryAfter)
         setPendingRetry(type)
-        setError(data.error || 'Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.')
+        setError(data?.error || 'Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.')
         return
       }
 
-      const data = await response.json()
-
-      if (!response.ok) {
-        throw new Error(data.error || 'Failed to generate narration')
+      if (!ok) {
+        const msg = data?.error || (status >= 500
+          ? 'Narration service is temporarily unavailable. Please try again later.'
+          : 'Failed to generate match narration.')
+        throw new Error(msg)
       }
 
-      const rawText = data.narration
+      const rawText = data?.narration
       if (rawText) {
         // Defensive sanitization: strip any HTML tags, ensuring output is strictly safe text
         const safeText = DOMPurify.sanitize(rawText, { ALLOWED_TAGS: [], ALLOWED_ATTR: [] })
@@ -77,14 +81,16 @@ export default function MatchNarration({ match }) {
         } else {
           setNormalNarration(safeText)
         }
+      } else {
+        throw new Error('No commentary content was returned for this match.')
       }
     } catch (err) {
-      if (err.message === 'Quota exceeded' || /quota|exhausted|429/i.test(err.message)) {
+      if (/quota|exhausted|429/i.test(err.message)) {
         setCountdown(60)
         setPendingRetry(type)
         setError('Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.')
       } else {
-        setError(err.message || 'An error occurred while generating the summary.')
+        setError(formatErrorMessage(err, 'An error occurred while generating the summary.'))
       }
     } finally {
       setLoading(false)

@@ -522,6 +522,46 @@ test('D5: system instruction defines precise section headers for comprehensive',
 })
 
 // ─────────────────────────────────────────────────────────────────────────────
+// E. Graceful Error Handling Tests
+// ─────────────────────────────────────────────────────────────────────────────
+
+console.log('\n── E. Graceful Error Handling Tests ──')
+
+import { formatErrorMessage, safeFetchJson } from '../src/utils/errorUtils.js'
+
+test('E1: Unexpected token JSON parse error formatted gracefully', () => {
+  const err = new SyntaxError('Unexpected token \'T\', "The page c"... is not valid JSON')
+  const msg = formatErrorMessage(err)
+  assert.ok(!msg.includes('Unexpected token'), 'Raw syntax error must not be exposed')
+  assert.ok(!msg.includes('not valid JSON'), 'JSON error details must not be exposed')
+  assert.match(msg, /narration service|server/i)
+})
+
+test('E2: Network fetch failure formatted gracefully', () => {
+  const err = new TypeError('Failed to fetch')
+  const msg = formatErrorMessage(err)
+  assert.ok(!msg.includes('TypeError'), 'Raw type error must not be exposed')
+  assert.match(msg, /network|connection/i)
+})
+
+test('E3: Quota limit error message preserved cleanly', () => {
+  const msg = formatErrorMessage('Gemini API Quota Limit Reached!')
+  assert.match(msg, /quota|retrying/i)
+})
+
+test('E4: safeFetchJson returns null data for HTML response without throwing', async () => {
+  const htmlResponse = {
+    status: 504,
+    ok: false,
+    text: async () => '<html><body>The page could not be found</body></html>',
+  }
+  const result = await safeFetchJson(htmlResponse)
+  assert.equal(result.ok, false)
+  assert.equal(result.status, 504)
+  assert.equal(result.data, null)
+})
+
+// ─────────────────────────────────────────────────────────────────────────────
 // Results summary
 // ─────────────────────────────────────────────────────────────────────────────
 
