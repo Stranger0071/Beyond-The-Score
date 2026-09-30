@@ -94,9 +94,10 @@ export function injectGlobalKeyframes() {
       from { max-height: 0; opacity: 0; }
       to   { max-height: 2000px; opacity: 1; }
     }
-    @keyframes bts-spin {
-      from { transform: rotate(0deg); }
-      to   { transform: rotate(360deg); }
+    @keyframes bts-loader-slide {
+      0% { transform: translateX(-100%); }
+      50% { transform: translateX(50%); }
+      100% { transform: translateX(200%); }
     }
   `
   document.head.appendChild(style)

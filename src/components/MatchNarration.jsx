@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react'
 import DOMPurify from 'dompurify'
 import { injectGlobalKeyframes, useInView, staggerStyle } from '../utils/animations'
 import { formatErrorMessage, safeFetchJson } from '../utils/errorUtils'
+import LoadingState from './LoadingState'
 
 export default function MatchNarration({ match }) {
   const [reportType, setReportType] = useState('normal')
@@ -210,12 +211,16 @@ export default function MatchNarration({ match }) {
 
           {/* Loader */}
           {loading ? (
-            <div className="flex flex-col items-center justify-center py-16 gap-4 animate-pulse">
-              <div className="h-10 w-10 animate-spin rounded-full border-2 border-t-transparent" style={{ borderColor: 'var(--accent)' }} />
-              <p className="text-xs font-bold uppercase tracking-widest" style={{ color: 'var(--accent)' }}>
-                Generating {reportType === 'comprehensive' ? 'Comprehensive Report' : 'Quick Summary'}...
-              </p>
-            </div>
+            <LoadingState
+              title={`Generating ${reportType === 'comprehensive' ? 'Comprehensive Report' : 'Quick Summary'}`}
+              phrases={[
+                'Synthesizing match data and boundary tallies...',
+                'Analyzing key overs, turning points & momentum shifts...',
+                'Formatting tactical reviews & player highlights...',
+                'Crafting AI commentary with Gemini model...',
+                'Finalizing narration summary...',
+              ]}
+            />
           ) : countdown > 0 ? (
             /* Rate Limit Countdown Card */
             <div className="flex flex-col items-center justify-center py-12 px-6 rounded-3xl border border-amber-500/10 bg-amber-500/[0.03] text-center space-y-4 max-w-xl mx-auto shadow-xl backdrop-blur-md">

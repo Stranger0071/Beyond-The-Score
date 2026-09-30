@@ -27,6 +27,7 @@ import HeadToHead from './components/HeadToHead'
 import VenueStats from './components/VenueStats'
 import MatchNarration from './components/MatchNarration'
 import MatchesView from './components/MatchesView'
+import LoadingState from './components/LoadingState'
 
 /**
  * HomeView Component - Landing page with feature overview and tournament introduction
@@ -767,9 +768,16 @@ function App() {
 
           {/* Loading indicator for async match data */}
           {loading && activeTab !== 'section-settings' && activeTab !== 'section-tournament' && activeTab !== 'section-home' && (
-            <p className="rounded-xl border border-white/10 bg-white/5 py-12 text-center text-slate-400">
-              Loading ball-by-ball data…
-            </p>
+            <LoadingState
+              title="Loading Match Data..."
+              phrases={[
+                'Retrieving ball-by-ball telemetry & match scorecards...',
+                'Parsing innings boundaries & partnership records...',
+                'Calculating phase run-rates & momentum shifts...',
+                'Crunching venue statistics & historical trends...',
+                'Preparing interactive match insights...',
+              ]}
+            />
           )}
 
           {/* Views: Match Detail Sections (scorecard, analytics, player stats, etc.) */}
