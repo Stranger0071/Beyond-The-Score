@@ -409,6 +409,6 @@ app.use((err, req, res, _next) => {
   res.status(err.status || 500).json({ error: 'An internal server error occurred.' })
 })
 
-app.listen(PORT, () => {
-  console.log(`BeyondTheScore Security Proxy running on http://localhost:${PORT}`)
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`BeyondTheScore Security Proxy listening on port ${PORT}`)
 })

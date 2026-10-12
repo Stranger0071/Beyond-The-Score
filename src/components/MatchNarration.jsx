@@ -4,6 +4,38 @@ import { injectGlobalKeyframes, useInView, staggerStyle } from '../utils/animati
 import { formatErrorMessage, safeFetchJson } from '../utils/errorUtils'
 import LoadingState from './LoadingState'
 
+const RENDER_API_ORIGIN = 'https://beyond-the-score.onrender.com'
+
+function isUsableApiOrigin(value) {
+  if (typeof value !== 'string') return false
+  const trimmed = value.trim()
+  if (!trimmed) return false
+  return !/^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?/i.test(trimmed)
+}
+
+function resolveNarrationApiBase() {
+  const candidates = [
+    import.meta.env.VITE_BACKEND_API_URL,
+    import.meta.env.VITE_API_URL,
+    import.meta.env.VITE_SERVER_URL,
+    import.meta.env.VITE_BACKEND_URL,
+    import.meta.env.BACKEND_API_URL,
+  ]
+  const configured = candidates.find(isUsableApiOrigin)
+  if (configured) return configured.trim().replace(/\/+$/, '')
+
+  // Vite dev server proxies /api → localhost:3001
+  if (import.meta.env.DEV) return ''
+
+  // Same-origin Express on Render, or Vercel rewrite in vercel.json
+  if (typeof window !== 'undefined' && /onrender\.com$/i.test(window.location.hostname)) {
+    return ''
+  }
+
+  // Vercel (and any other static host) must call the public Render API
+  return RENDER_API_ORIGIN
+}
+
 export default function MatchNarration({ match }) {
   const [reportType, setReportType] = useState('normal')
   const [normalNarration, setNormalNarration] = useState('')
@@ -34,15 +66,7 @@ export default function MatchNarration({ match }) {
     setError('')
     try {
       const isComp = type === 'comprehensive'
-      // Vite requires VITE_ prefix to expose environment variables to client-side code
-      const rawApiBase =
-        import.meta.env.VITE_BACKEND_API_URL ||
-        import.meta.env.VITE_API_URL ||
-        import.meta.env.VITE_SERVER_URL ||
-        import.meta.env.VITE_BACKEND_URL ||
-        import.meta.env.BACKEND_API_URL ||
-        ''
-      const apiBase = rawApiBase.replace(/\/+$/, '')
+      const apiBase = resolveNarrationApiBase()
       const response = await fetch(`${apiBase}/api/narrate`, {
         method: 'POST',
         headers: {
