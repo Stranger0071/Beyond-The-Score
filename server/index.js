@@ -62,7 +62,14 @@ app.use(
 )
 
 // ── Body Parser with strict limit (OWASP LLM04: Model Denial of Service) ─────
-app.use(express.json({ limit: '15kb' }))
+// Only parse JSON on /api routes so SPA/static POSTs and probes do not throw.
+app.use(
+  '/api',
+  express.json({
+    limit: '15kb',
+    strict: true,
+  })
+)
 
 // ── Rate Limiting (OWASP A04: Insecure Design & OWASP LLM04: Model DoS) ───────
 const apiLimiter = rateLimit({
@@ -402,9 +409,20 @@ if (existsSync(distPath)) {
 // ── Global Error Handler ──────────────────────────────────────────────────────
 // eslint-disable-next-line no-unused-vars
 app.use((err, req, res, _next) => {
+  if (res.headersSent) return
+
   if (err.type === 'entity.too.large' || err.status === 413) {
     return res.status(413).json({ error: 'Payload too large. Maximum allowed request size is 15KB.' })
   }
+
+  const isInvalidJson =
+    err.type === 'entity.parse.failed' ||
+    (err instanceof SyntaxError && err.status === 400)
+
+  if (isInvalidJson) {
+    return res.status(400).json({ error: 'Request body must be valid JSON.' })
+  }
+
   console.error('Unhandled server error:', err.message || err)
   res.status(err.status || 500).json({ error: 'An internal server error occurred.' })
 })
