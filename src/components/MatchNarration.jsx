@@ -14,6 +14,12 @@ function isUsableApiOrigin(value) {
 }
 
 function resolveNarrationApiBase() {
+  // Vercel proxies /api through the rewrite in vercel.json. Keeping this
+  // same-origin avoids a browser CORS request to Render altogether.
+  if (typeof window !== 'undefined' && /\.vercel\.app$/i.test(window.location.hostname)) {
+    return ''
+  }
+
   const candidates = [
     import.meta.env.VITE_BACKEND_API_URL,
     import.meta.env.VITE_API_URL,
@@ -27,12 +33,12 @@ function resolveNarrationApiBase() {
   // Vite dev server proxies /api → localhost:3001
   if (import.meta.env.DEV) return ''
 
-  // Same-origin Express on Render, or Vercel rewrite in vercel.json
+  // Same-origin Express on Render
   if (typeof window !== 'undefined' && /onrender\.com$/i.test(window.location.hostname)) {
     return ''
   }
 
-  // Vercel (and any other static host) must call the public Render API
+  // Other static hosts call the public Render API directly.
   return RENDER_API_ORIGIN
 }
 
