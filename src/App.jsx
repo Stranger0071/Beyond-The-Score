@@ -29,6 +29,135 @@ import MatchNarration from './components/MatchNarration'
 import MatchesView from './components/MatchesView'
 import LoadingState from './components/LoadingState'
 
+const PAGE_LOADING_COPY = {
+  'section-home': {
+    title: 'Loading Cricket Dashboard...',
+    phrases: [
+      'Fetching tournament highlights & season records...',
+      'Preparing your cricket data notebook...',
+      'Loading the latest match context...',
+    ],
+  },
+  'section-overview': {
+    title: 'Loading Tournament Overview...',
+    phrases: [
+      'Fetching tournament records & season totals...',
+      'Calculating wins, tosses & scoring trends...',
+      'Preparing the competition overview...',
+    ],
+  },
+  'section-tournament': {
+    title: 'Loading Tournaments...',
+    phrases: [
+      'Fetching tournament history & season ranges...',
+      'Preparing IPL and World Cup records...',
+      'Loading competition details...',
+    ],
+  },
+  'section-matches': {
+    title: 'Loading Matches...',
+    phrases: [
+      'Fetching matches for the selected season...',
+      'Sorting fixtures, results & score summaries...',
+      'Preparing the match browser...',
+    ],
+  },
+  'section-scorecard': {
+    title: 'Loading Scorecard...',
+    phrases: [
+      'Fetching innings scorecards & batting figures...',
+      'Loading bowling spells & fall-of-wicket details...',
+      'Preparing the complete match scorecard...',
+    ],
+  },
+  'section-analytics': {
+    title: 'Loading Match Analytics...',
+    phrases: [
+      'Fetching ball-by-ball match data...',
+      'Calculating run rates, phases & momentum...',
+      'Preparing performance analytics...',
+    ],
+  },
+  'section-narration': {
+    title: 'Loading Match Narration...',
+    phrases: [
+      'Fetching match context for the commentary...',
+      'Reviewing innings, wickets & turning points...',
+      'Preparing the AI match summary...',
+    ],
+  },
+  'section-performers': {
+    title: 'Loading Player Highlights...',
+    phrases: [
+      'Fetching standout batting & bowling performances...',
+      'Reviewing player-of-the-match contributions...',
+      'Preparing player highlights...',
+    ],
+  },
+  'section-squad': {
+    title: 'Loading Match Squads...',
+    phrases: [
+      'Fetching playing XIs & player roles...',
+      'Organising batting and bowling line-ups...',
+      'Preparing squad details...',
+    ],
+  },
+  'section-h2h': {
+    title: 'Loading Head-to-Head...',
+    phrases: [
+      'Fetching batter-versus-bowler deliveries...',
+      'Calculating match-up records...',
+      'Preparing head-to-head insights...',
+    ],
+  },
+  'section-venue': {
+    title: 'Loading Venue Statistics...',
+    phrases: [
+      'Fetching ground details & match conditions...',
+      'Calculating venue scoring and toss trends...',
+      'Preparing venue insights...',
+    ],
+  },
+  'section-insights': {
+    title: 'Loading Match Insights...',
+    phrases: [
+      'Fetching pivotal overs & turning points...',
+      'Reviewing partnerships, wickets & boundaries...',
+      'Preparing match insights...',
+    ],
+  },
+  'section-timeline': {
+    title: 'Loading Match Timeline...',
+    phrases: [
+      'Fetching ball-by-ball match events...',
+      'Ordering wickets, boundaries & key moments...',
+      'Preparing the match timeline...',
+    ],
+  },
+  'section-glossary': {
+    title: 'Loading Cricket Glossary...',
+    phrases: [
+      'Fetching cricket terms & definitions...',
+      'Preparing the cricket reference guide...',
+      'Loading glossary entries...',
+    ],
+  },
+  'section-settings': {
+    title: 'Loading Settings...',
+    phrases: [
+      'Preparing your dashboard preferences...',
+      'Loading display and playback settings...',
+    ],
+  },
+}
+
+function getPageLoadingCopy(activeTab) {
+  return PAGE_LOADING_COPY[activeTab] || {
+    title: 'Loading Match Data...',
+    phrases: ['Fetching match details...', 'Preparing your cricket insights...'],
+  }
+}
+
 /**
  * HomeView Component - Landing page with feature overview and tournament introduction
  * Displays:
@@ -709,6 +838,7 @@ function App() {
   const detailTabs = ['section-analytics', 'section-performers', 'section-squad', 'section-h2h', 'section-venue']
   // Show fallback UI if user tries to view a detail tab without data
   const needsDetailAndMissing = !hasDetailedData && detailTabs.includes(activeTab) && !loading && match
+  const pageLoadingCopy = getPageLoadingCopy(activeTab)
 
   // Hide header on special views (settings, tournament picker, home)
   const hideHeader = activeTab === 'section-settings' || activeTab === 'section-tournament' || activeTab === 'section-home'
@@ -767,16 +897,10 @@ function App() {
           )}
 
           {/* Loading indicator for async match data */}
-          {loading && activeTab !== 'section-settings' && activeTab !== 'section-tournament' && activeTab !== 'section-home' && (
+          {loading && (
             <LoadingState
-              title="Loading Match Data..."
-              phrases={[
-                'Retrieving ball-by-ball telemetry & match scorecards...',
-                'Parsing innings boundaries & partnership records...',
-                'Calculating phase run-rates & momentum shifts...',
-                'Crunching venue statistics & historical trends...',
-                'Preparing interactive match insights...',
-              ]}
+              title={pageLoadingCopy.title}
+              phrases={pageLoadingCopy.phrases}
             />
           )}
 

@@ -97,6 +97,14 @@ export default function MatchNarration({ match }) {
 
       const { ok, status, data, rawText: responseRawText } = await safeFetchJson(response)
 
+      if (status === 429) {
+        const retryAfter = data?.retryAfter || 60
+        setCountdown(retryAfter)
+        setPendingRetry(type)
+        setError(data?.error || 'Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.')
+        return
+      }
+
       if (!ok) {
         const targetUrl = `${apiBase}/api/narrate`
         const msg = data?.error || responseRawText || `HTTP ${status} returned from ${targetUrl}`
@@ -116,7 +124,13 @@ export default function MatchNarration({ match }) {
         throw new Error('No commentary content was returned for this match.')
       }
     } catch (err) {
-      setError(formatErrorMessage(err, 'An error occurred while generating the summary.'))
+      if (/quota|exhausted|429/i.test(err.message)) {
+        setCountdown(60)
+        setPendingRetry(type)
+        setError('Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.')
+      } else {
+        setError(formatErrorMessage(err, 'An error occurred while generating the summary.'))
+      }
     } finally {
       setLoading(false)
     }

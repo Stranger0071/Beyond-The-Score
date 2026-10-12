@@ -17,8 +17,6 @@ export function formatErrorMessage(err, fallback = 'An unexpected error occurred
 
   const rawMessage = typeof err === 'string' ? err : err.message || String(err)
 
-  /* Custom error formatting commented out to display raw errors as-is */
-  /*
   // Rate limit / Quota exceeded
   if (/quota|exhausted|429|rate limit|too many requests/i.test(rawMessage)) {
     return 'Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.'
@@ -33,7 +31,11 @@ export function formatErrorMessage(err, fallback = 'An unexpected error occurred
   if (/failed to fetch|networkerror|load failed|fetch failed|econnrefused/i.test(rawMessage)) {
     return 'Network connection issue. Unable to connect to the narration server.'
   }
-  */
+
+  // Do not expose server paths, stack traces, or module locations in the UI.
+  if (/([a-z]:[\\/]|\/(?:users|home|var|app|srv|tmp)\/|\bat\s+.+\(.+?:\d+:\d+\))/i.test(rawMessage)) {
+    return 'The narration server encountered an unexpected error. Please try again shortly.'
+  }
 
   return rawMessage || fallback
 }

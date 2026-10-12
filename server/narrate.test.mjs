@@ -529,21 +529,21 @@ console.log('\n── E. Graceful Error Handling Tests ──')
 
 import { formatErrorMessage, safeFetchJson } from '../src/utils/errorUtils.js'
 
-test('E1: Unexpected token JSON parse error returns raw error string', () => {
+test('E1: Unexpected token JSON parse error returns a safe server message', () => {
   const err = new SyntaxError('Unexpected token \'T\', "The page c"... is not valid JSON')
   const msg = formatErrorMessage(err)
-  assert.ok(msg.includes('Unexpected token'), 'Raw syntax error string returned')
+  assert.equal(msg, 'Unable to reach the narration server. Please check your backend URL configuration on Vercel.')
 })
 
-test('E2: Network fetch failure returns raw error string', () => {
+test('E2: Network fetch failure returns a safe connection message', () => {
   const err = new TypeError('Failed to fetch')
   const msg = formatErrorMessage(err)
-  assert.equal(msg, 'Failed to fetch')
+  assert.equal(msg, 'Network connection issue. Unable to connect to the narration server.')
 })
 
-test('E3: Quota limit error message returned as is', () => {
+test('E3: Quota limit error is formatted safely', () => {
   const msg = formatErrorMessage('Gemini API Quota Limit Reached!')
-  assert.equal(msg, 'Gemini API Quota Limit Reached!')
+  assert.equal(msg, 'Gemini API Quota Limit Reached! Auto-retrying when the countdown completes.')
 })
 
 test('E4: safeFetchJson returns null data for HTML response without throwing', async () => {
@@ -556,6 +556,11 @@ test('E4: safeFetchJson returns null data for HTML response without throwing', a
   assert.equal(result.ok, false)
   assert.equal(result.status, 504)
   assert.equal(result.data, null)
+})
+
+test('E5: File paths are never exposed in client-facing errors', () => {
+  const msg = formatErrorMessage('ENOENT: no such file or directory, open \'C:\\app\\server\\secrets.env\'')
+  assert.equal(msg, 'The narration server encountered an unexpected error. Please try again shortly.')
 })
 
 // ─────────────────────────────────────────────────────────────────────────────

@@ -338,6 +338,14 @@ app.post('/api/narrate', apiLimiter, async (req, res) => {
 
     clearTimeout(timeout)
 
+    // Keep provider overload messages useful without exposing upstream details.
+    if (response.status === 429 || response.status === 503) {
+      return res.status(429).json({
+        error: 'Gemini API is temporarily busy or rate-limited. Auto-retrying shortly.',
+        retryAfter: 60,
+      })
+    }
+
     const rawResponseBody = await response.text().catch(() => '')
     let data = null
     try {
@@ -345,12 +353,25 @@ app.post('/api/narrate', apiLimiter, async (req, res) => {
     } catch {
       console.error('Gemini upstream returned non-JSON response status:', response.status, rawResponseBody)
       return res.status(502).json({
-        error: rawResponseBody || `Gemini returned a non-JSON response (HTTP ${response.status}).`,
+        error: 'Upstream AI model returned an unexpected response format.',
       })
     }
 
     if (!data) {
       return res.status(502).json({ error: 'Upstream AI model returned an empty response.' })
+    }
+
+    if (
+      data.error?.code === 429 ||
+      data.error?.code === 503 ||
+      data.error?.status === 'RESOURCE_EXHAUSTED' ||
+      data.error?.status === 'UNAVAILABLE' ||
+      /quota|exhausted|429|high demand|overloaded/i.test(data.error?.message || '')
+    ) {
+      return res.status(429).json({
+        error: 'Gemini API Quota Limit Reached! Upstream rate limit exceeded.',
+        retryAfter: 60,
+      })
     }
 
     if (data.error) {
@@ -370,10 +391,10 @@ app.post('/api/narrate', apiLimiter, async (req, res) => {
     return res.json({ narration: sanitizedNarration })
   } catch (err) {
     console.error('Narration proxy error:', err)
-    return res.status(err.name === 'AbortError' ? 504 : 500).json({
-      error: err.message || String(err),
-      name: err.name,
-    })
+    if (err.name === 'AbortError') {
+      return res.status(504).json({ error: 'Upstream Gemini request timed out.' })
+    }
+    return res.status(500).json({ error: 'An internal error occurred while generating the match narration.' })
   }
 })
 
@@ -405,10 +426,7 @@ app.use((err, req, res, _next) => {
   }
 
   console.error('Unhandled server error:', err)
-  res.status(err.status || 500).json({
-    error: err.message || String(err),
-    name: err.name,
-  })
+  res.status(err.status || 500).json({ error: 'An internal server error occurred.' })
 })
 
 app.listen(PORT, '0.0.0.0', () => {
